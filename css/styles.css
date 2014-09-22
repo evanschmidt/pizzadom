@@ -910,7 +910,7 @@ table {
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\00003237}}
-  #block-block-1 {
+  #block-block-1, #block-block-1--3 {
     float: left;
     width: 25%;
     margin-left: 0%;
@@ -918,12 +918,12 @@ table {
     text-align: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\00003240}}
-  #block-block-1 p {
+  #block-block-1 p, #block-block-1--3 p {
     padding: 4em 2em 0;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\00003244}}
-  #block-block-2 {
+  #block-block-2, #block-block-2--3 {
     float: left;
     width: 50%;
     margin-left: 25%;
@@ -932,7 +932,7 @@ table {
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\00003248}}
-  #block-block-3 {
+  #block-block-3, #block-block-3--3 {
     float: left;
     width: 25%;
     margin-left: 75%;
@@ -940,11 +940,11 @@ table {
     text-align: right;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\00003251}}
-  #block-block-3 p {
+  #block-block-3 p, #block-block-3--3 p {
     padding: 2.5em 2em 0 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\00003254}}
-  #block-block-3 strong {
+  #block-block-3 strong, #block-block-3--3 strong {
     font-size: 1em;
   }
 

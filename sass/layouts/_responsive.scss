@@ -234,18 +234,18 @@ $zen-auto-include-item-base: false;
   #block-views-homepage-images-block {
     display: block;
   }
-  #block-block-1 {
+  #block-block-1, #block-block-1--3 {
     @include zen-grid-item(1, 1);
     text-align: left;
     p {
       padding: 4em 2em 0;
     }
   }
-  #block-block-2 {
+  #block-block-2, #block-block-2--3 {
     @include zen-grid-item(2, 2);
     text-align: center;
   }
-  #block-block-3 {
+  #block-block-3, #block-block-3--3 {
     @include zen-grid-item(1, 4);    
     text-align: right;
     p {
