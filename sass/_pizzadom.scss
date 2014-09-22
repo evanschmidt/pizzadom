@@ -12,6 +12,15 @@
     background: none repeat scroll 0 0 #FFFFFF;
   }
 }
+.pageflow-wrapper {
+  header {
+    background: none repeat scroll 0 0 #FFFFFF;
+    position: fixed;
+  }
+  #navigation {
+    position: fixed;
+  }
+}
 #page-title {
 }
 #header, #navigation {
