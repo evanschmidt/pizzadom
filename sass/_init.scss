@@ -125,7 +125,7 @@ $tabs-border: #bbb;
 // Add the Zen Grids responsive layout mixins.
 @import "zen";
 //Add Zen Grids Background
-//@import "zen/background";
+@import "zen/background";
 
 // Now we add our custom helper mixins.
 @import "mixins";
