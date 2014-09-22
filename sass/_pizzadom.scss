@@ -13,14 +13,10 @@
   }
 }
 #page-title {
-  //display: none;
 }
 #header {
-	z-index: 99;
 }
 .block {
-	margin-bottom: 0;
-  text-align: center;
 }
 strong, em {
 	color: $red;
@@ -29,21 +25,8 @@ strong, em {
 	a {
 		color: $red;
 	}
-  .opening {
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  .daily {
-    text-transform: lowercase;
-  }
-  .hours {
-    color: $red;
-    font-weight: bold;
-  }
 }
 #block-block-2 {
-	position: relative;
-	z-index: 99;
 }
 #block-block-3 {
   strong a, a.email {
@@ -51,9 +34,6 @@ strong, em {
   }
 }
 #footer {
-  p {
-  	margin: 0;
-  }
 }
 #block-views-homepage-images-block {
   color: $white;
