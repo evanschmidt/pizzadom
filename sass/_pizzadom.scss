@@ -9,9 +9,19 @@
 }
 
 #block-system-main-menu {
-  position: relative;
-  .menu {
     position: fixed;
+    top: 20em;
+    width: 100%;
+    z-index: 999;
+  .menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 1em;
+    position: fixed;
+    z-index: 999;
+    a {
+      color: $red;
+      font-size: 1.2em;
+    }
   }
 }
 
