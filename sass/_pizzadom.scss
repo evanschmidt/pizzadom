@@ -21,7 +21,7 @@
 }
 .pageflow-wrapper {
   #header {
-    display: none;
+    position: relative;
   }
   #navigation {
     clear: both;
@@ -41,13 +41,6 @@
       margin-top: 12em; 
       min-height: 350px;
     }
-  }
-}
-.pageflow-wrapper:first-child {
-  #header {
-    display: block;
-    position: relative;
-    //background: none repeat scroll 0 0 #FFFFFF;
   }
 }
 #header {
