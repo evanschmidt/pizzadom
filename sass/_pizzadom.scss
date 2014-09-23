@@ -33,6 +33,10 @@
 #our-story {
   background: url('/sites/default/files/images/BG.png') no-repeat scroll 0 0 transparent;
   height: 400px;
+  p {
+    position: relative;
+    z-index: 1;
+  }
   img{
     position: absolute;
     top:0;
