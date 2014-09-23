@@ -73,6 +73,9 @@
       color: $red;
       font-size: 1.2em;
     }
+    li {
+      text-align: center;
+    }
     li.active-trail {
       background: none repeat scroll 0 0 $red;   
     }
