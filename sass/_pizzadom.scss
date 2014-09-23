@@ -14,7 +14,7 @@
 }
 .pageflow-wrapper {
   header {
-    background: none repeat scroll 0 0 #FFFFFF;
+    //background: none repeat scroll 0 0 #FFFFFF;
   }
   #navigation {
     clear: both;
@@ -27,6 +27,7 @@
 }
 #our-story {
   background: url('/sites/default/files/images/BG.png') no-repeat scroll 0 0 transparent;
+  height: 400px;
   img{
     position: absolute;
     top:0;
