@@ -47,9 +47,11 @@
   }
 
   .pageflow-page {
-    margin-top: 15.75em; 
     #header {
-    }    
+    }
+    #main {
+      margin-top: 15.75em; 
+    }
     .node-page {
       min-height: 350px;
     }
