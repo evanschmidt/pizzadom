@@ -50,9 +50,10 @@
     #header {
     }
     #main {
+      position: relative;
+      top: 260px;
     }
     .node-page {
-      padding-top: 15.75em;
       min-height: 350px;
     }
   }
