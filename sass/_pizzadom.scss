@@ -20,6 +20,9 @@
   }
 }
 .pageflow-wrapper {
+  #page {
+    margin: 0;
+  }
   #header {
     position: relative;
     text-align: center;
@@ -45,7 +48,6 @@
     width: 100%;
     z-index: 998;
   }
-
   .pageflow-page {
     #header {
       margin-bottom: -260px;
