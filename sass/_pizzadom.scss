@@ -21,9 +21,14 @@
 }
 .pageflow-wrapper {
   #header {
+    display: none;
+  }
+  #header:nth-child(1) {
+    display: block;
     position: relative;
     //background: none repeat scroll 0 0 #FFFFFF;
   }
+
   #navigation {
     clear: both;
   }
