@@ -19,6 +19,11 @@
   #navigation {
     clear: both;
   }
+  .pageflow-page {
+    #header {
+      display: none;
+    }    
+  }
 }
 #page-title {
 }
@@ -34,6 +39,7 @@
     left: 0;
   }
 }
+
 .block {
 }
 strong, em {
