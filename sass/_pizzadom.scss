@@ -115,6 +115,10 @@ strong, em {
 	}
 }
 #block-block-2 {
+  position: relative;
+  img {
+    position : fixed;
+  }
 }
 #block-block-3 {
   strong a, a.email {
