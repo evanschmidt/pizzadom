@@ -1969,7 +1969,7 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000311}}
 #block-system-main-menu {
   position: fixed;
-  top: 20em;
+  top: 0;
   width: 100%;
   z-index: 999;
 }
