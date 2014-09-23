@@ -73,8 +73,10 @@
       color: $red;
       font-size: 1.2em;
     }
+    li.active-trail {
+      background: none repeat scroll 0 0 $red;   
+    }
     a.active {
-      background: none repeat scroll 0 0 $red;      
       color: #FFFFFF;
     }
   }
