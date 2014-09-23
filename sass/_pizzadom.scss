@@ -114,7 +114,7 @@
 #how-we-roll {
   color: $red;
   text-align: center;
-  height: 550px;
+  min-height: 550px;
   a {
     color: $red;    
   }
@@ -131,6 +131,9 @@
     top:0;
     left: 0;
   }
+}
+#our-farmers {
+  min-height: 550px;
 }
 #our-contact {
   background: none no-repeat scroll 0 0 $red;
