@@ -2114,7 +2114,7 @@ strong, em {
 #block-block-2 img {
   left: 40%;
   position: fixed;
-  top: 150px;
+  top: 80px;
   transform-origin: left top 0;
   z-index: 999;
 }
