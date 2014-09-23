@@ -2007,7 +2007,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000350}}
 .pageflow-wrapper .pageflow-page {
-  margin: 0;
+  margin-bottom: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000352}}
 .pageflow-wrapper .pageflow-page #header {
