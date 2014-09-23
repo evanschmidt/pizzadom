@@ -118,9 +118,10 @@ strong, em {
 #block-block-2 {
   position: relative;
   img {
-    position : fixed;
-    left: 50%;
-    top: 50%;
+    left: 25%;
+    position: absolute;
+    top: 0;
+    transform-origin: left top 0;
     z-index: 999;
   }
 }
