@@ -23,7 +23,7 @@
   #header {
     display: none;
   }
-  #header:nth-child(1) {
+  #header:first-child {
     display: block;
     position: relative;
     //background: none repeat scroll 0 0 #FFFFFF;

@@ -1981,7 +1981,7 @@ tr.selected td {
   display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000326}}
-.pageflow-wrapper #header:nth-child(1) {
+.pageflow-wrapper #header:first-child {
   display: block;
   position: relative;
 }
