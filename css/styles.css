@@ -2037,7 +2037,7 @@ tr.selected td {
   font-size: 1.2em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000376}}
-#block-system-main-menu .menu a.active-trail {
+#block-system-main-menu .menu a.active {
   background: none repeat scroll 0 0 #89191c;
   color: #FFFFFF;
 }
