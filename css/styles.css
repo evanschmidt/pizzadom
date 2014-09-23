@@ -1982,28 +1982,28 @@ tr.selected td {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000333}}
-#our-story {
+#our-story, #how-we-roll {
   color: #89191c;
   text-align: center;
   background: url("/sites/default/files/images/BG.png") no-repeat scroll 0 0 transparent;
   height: 400px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000338}}
-#our-story a {
+#our-story a, #how-we-roll a {
   color: #89191c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000341}}
-#our-story h2 {
+#our-story h2, #how-we-roll h2 {
   position: relative;
   z-index: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000345}}
-#our-story p {
+#our-story p, #how-we-roll p {
   position: relative;
   z-index: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000349}}
-#our-story img {
+#our-story img, #how-we-roll img {
   position: absolute;
   top: 0;
   left: 0;
