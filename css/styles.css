@@ -1977,6 +1977,10 @@ tr.selected td {
 .pageflow-wrapper header {
   background: none repeat scroll 0 0 #FFFFFF;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000319}}
+.pageflow-wrapper #navigation {
+  clear: both;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000330}}
 strong, em {

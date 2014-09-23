@@ -16,8 +16,8 @@
   header {
     background: none repeat scroll 0 0 #FFFFFF;
   }
-  #header, #navigation {
-    //position: fixed;
+  #navigation {
+    clear: both;
   }
 }
 #page-title {
