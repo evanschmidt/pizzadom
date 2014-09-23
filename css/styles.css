@@ -674,14 +674,12 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\0000369}}
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 4em;
     position: relative;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/layouts\/_responsive\.scss}line{font-family:\0000374}}
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    height: 4em;
     width: 100%;
   }
 }
