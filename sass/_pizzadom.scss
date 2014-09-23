@@ -23,12 +23,14 @@
   #header {
     display: none;
   }
-  #header:first-child {
+}
+.pageflow-wrapper:first-child {
+  #header {
     display: block;
     position: relative;
     //background: none repeat scroll 0 0 #FFFFFF;
-  }
-
+  }  
+}
   #navigation {
     clear: both;
   }
