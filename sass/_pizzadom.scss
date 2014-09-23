@@ -7,6 +7,14 @@
  */
 #page {
 }
+
+#block-system-main-menu {
+  position: relative;
+  .menu {
+    position: fixed;
+  }
+}
+
 .page-single-page {
   header {
     background: none repeat scroll 0 0 #FFFFFF;
