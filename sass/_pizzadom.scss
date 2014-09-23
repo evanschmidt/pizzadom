@@ -35,8 +35,10 @@
   text-align: center;
   background: url('/sites/default/files/images/BG.png') no-repeat scroll 0 0 transparent;
   height: 400px;
+  a {
+    color: $red;    
+  }
   h2 {
-    color: $red;
     position: relative;
     z-index: 1;
   }
