@@ -23,14 +23,6 @@
   #header {
     display: none;
   }
-}
-.pageflow-wrapper:first-child {
-  #header {
-    display: block;
-    position: relative;
-    //background: none repeat scroll 0 0 #FFFFFF;
-  }  
-}
   #navigation {
     clear: both;
   }
@@ -49,6 +41,13 @@
       margin-top: 12em; 
       min-height: 350px;
     }
+  }
+}
+.pageflow-wrapper:first-child {
+  #header {
+    display: block;
+    position: relative;
+    //background: none repeat scroll 0 0 #FFFFFF;
   }
 }
 #header {
