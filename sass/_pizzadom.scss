@@ -23,6 +23,15 @@
   #header {
     position: relative;
   }
+  .header__region {
+      clear: both;
+      display: block;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+  }
   #navigation {
     clear: both;
   }
@@ -34,6 +43,7 @@
     top: 0;
     width: 100%;
   }
+
   .pageflow-page {
     #header {
     }    
