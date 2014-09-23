@@ -48,9 +48,8 @@
 
     <?php print render($page['header']); ?>
 
-    <div id="navigation">
-
       <?php if ($main_menu): ?>
+    <div id="navigation">
         <nav id="main-menu" role="navigation" tabindex="-1">
           <?php
           // This code snippet is hard to modify. We recommend turning off the
@@ -69,11 +68,11 @@
             ),
           )); ?>
         </nav>
-      <?php endif; ?>
 
       <?php print render($page['navigation']); ?>
 
     </div>
+      <?php endif; ?>
 
   </header>
 
