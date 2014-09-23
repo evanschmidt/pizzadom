@@ -2091,9 +2091,9 @@ strong, em {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003120}}
 #block-block-2 img {
-  left: 25%;
-  position: absolute;
-  top: 0;
+  left: 40%;
+  position: fixed;
+  top: 150px;
   transform-origin: left top 0;
   z-index: 999;
 }
