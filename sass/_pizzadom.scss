@@ -10,6 +10,36 @@
 #main {
 }
 
+#page-title {
+  display: none;
+}
+
+.page-single-page {
+  header {
+    background: none repeat scroll 0 0 #FFFFFF;
+  }
+}
+.pageflow-wrapper {
+  #header {
+    position: relative;
+    //background: none repeat scroll 0 0 #FFFFFF;
+  }
+  #navigation {
+    clear: both;
+  }
+  .pageflow-page {
+    #header {
+    }    
+    .node-page {
+      margin-top: 12em; 
+      min-height: 350px;
+    }
+  }
+}
+#header {
+  border: 1px solid #000000;
+  height: 16.8em;
+}
 #block-system-main-menu {
     position: fixed;
     top: 0;
@@ -25,39 +55,6 @@
       font-size: 1.2em;
     }
   }
-}
-
-.page-single-page {
-  header {
-    background: none repeat scroll 0 0 #FFFFFF;
-  }
-}
-.pageflow-wrapper {
-  header {
-    //background: none repeat scroll 0 0 #FFFFFF;
-  }
-  #navigation {
-    clear: both;
-  }
-  .pageflow-page {
-    #header {
-    }    
-    .node-page {
-      margin-top: 12em; 
-      min-height: 350px;
-    }
-  }
-}
-#page-title {
-  display: none;
-}
-#header {
-  border: 1px solid #000000;
-  height: 16.8em;
-}
-
-#navigation {
-//  position: fixed;
 }
 #our-story {
   color: $red;
