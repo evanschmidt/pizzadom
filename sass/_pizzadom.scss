@@ -25,6 +25,14 @@
 #header, #navigation {
 //  position: fixed;
 }
+#our-story {
+  background: url('/sites/default/files/images/BG.png') no-repeat scroll 0 0 transparent;
+  img{
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+}
 .block {
 }
 strong, em {
