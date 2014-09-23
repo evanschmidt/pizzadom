@@ -28,9 +28,12 @@
     clear: both;
   }
   .region-navigation {
-    background: #00F;
-    width: 100%;
+    background: none repeat scroll 0 0 #00f;
     height: 252px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   .pageflow-page {
     #header {
