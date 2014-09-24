@@ -83,15 +83,34 @@
       padding: 1em;
       display: block;
     }
+    a.active, a:hover {
+      color: #FFFFFF;
+    }
     li {
       text-align: center;
     }
     li.active-trail, li:hover {
       background: none repeat scroll 0 0 $red;   
     }
-    a.active, a:hover {
-      color: #FFFFFF;
+    li:nth-child(1) {
+      @include zen-grid-item(1, 1);
     }
+    li:nth-child(2) {
+      @include zen-grid-item(1, 2);
+    }
+    li:nth-child(3) {
+      @include zen-grid-item(1, 3);
+    }
+    li:nth-child(4) {
+      @include zen-grid-item(1, 4);
+    }
+    li:nth-child(5) {
+      @include zen-grid-item(1, 5);
+    }
+    li:nth-child(6) {
+      @include zen-grid-item(1, 6);
+    }
+
   }
 }
 #our-story {
