@@ -173,13 +173,17 @@ strong, em {
 	color: $red;
 }
 #block-block-1 {
-	a {
-    background: url("/sites/default/files/images/button.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
-		color: $red;
-    display: block;
-    height: 73px;
-    width: 170px;
-	}
+  h2 {
+    a {
+      background: url("/sites/default/files/images/button.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+      color: $red;
+      display: block;
+      height: 73px;
+      text-align: center;
+      padding-top: 1em;
+      width: 170px;
+    }  
+  }
 }
 #block-block-2 {
   position: relative;
