@@ -177,13 +177,14 @@ strong, em {
     margin: 0;
     padding: 0;
     a {
-      background: url("/sites/default/files/images/button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-      color: $red;
-      display: block;
-      height: 73px;
-      text-align: center;
-      padding-top: 10px;
-      width: 170px;
+    background: url("/sites/default/files/images/button.png") no-repeat scroll 0 0 transparent;
+    color: $red;
+    display: block;
+    height: 73px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 170px;
     }  
   }
 }
