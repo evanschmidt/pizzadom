@@ -66,14 +66,14 @@
     @include zen-grid-item-base();
     @include zen-grid-container();
     $zen-column-count: 6;
-    @include zen-grid-item(6, 1);
-    @include zen-nested-container();
-    @include zen-grid-background();
     position: fixed;
     top: 189px;
     width: 100%;
     z-index: 999;
   .menu {
+    @include zen-grid-item(6, 1);
+    @include zen-nested-container();
+    @include zen-grid-background();
     background: none repeat scroll 0 0 #FFFFFF;
     position: fixed;
     z-index: 999;
