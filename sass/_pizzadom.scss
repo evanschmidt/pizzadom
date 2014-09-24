@@ -64,14 +64,14 @@
 }
 #block-system-main-menu {
     @include zen-grid-item-base();
-    $zen-column-count: 18;
-    @include zen-grid-item(18, 1);
+    $zen-column-count: 21;
+    @include zen-grid-item(21, 1);
     @include zen-nested-container();
     position: fixed;
     top: 189px;
     z-index: 999;
   .menu {
-    @include zen-grid-item(18, 1);
+    @include zen-grid-item(21, 1);
     @include zen-nested-container();
     @include zen-grid-background();
 //    background: none repeat scroll 0 0 #FFFFFF;
