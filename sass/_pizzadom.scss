@@ -66,7 +66,7 @@
     @include zen-grid-item-base();
     @include zen-grid-container();
     $zen-column-count: 6;
-    @include zen-grid-item(3, 1);
+    @include zen-grid-item(6, 1);
     @include zen-nested-container();
     @include zen-grid-background();
     position: fixed;
