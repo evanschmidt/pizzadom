@@ -55,8 +55,8 @@
       margin-bottom: -260px;
     }
     #main {
+      color: $red;
       position: relative;
-      text-align: center;
       //top: 260px;
       h2 {
         border-bottom: 1px solid $red;
@@ -128,6 +128,10 @@
 
   }
 }
+#hi-neighbor {
+  color: $red;
+  text-align: center;
+}
 #our-story {
   color: $red;
   text-align: center;
@@ -143,11 +147,6 @@
   p {
     position: relative;
     z-index: 1;
-  }
-  img{
-    position: absolute;
-    top:0;
-    left: 0;
   }
 }
 
@@ -165,11 +164,6 @@
   p {
     position: relative;
     z-index: 1;
-  }
-  img{
-    position: absolute;
-    top:0;
-    left: 0;
   }
 }
 #our-farmers {
