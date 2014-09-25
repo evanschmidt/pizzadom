@@ -2237,11 +2237,11 @@ strong, em {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003218}}
-#block-views-homepage-images-block {
+#block-views-homepage-images-block, #homepage-images {
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003220}}
-#block-views-homepage-images-block .flexslider {
+#block-views-homepage-images-block .flexslider, #homepage-images .flexslider {
   background: none repeat scroll 0 0 transparent;
   border-left: 0 none;
   border-right: 0 none;
@@ -2249,11 +2249,11 @@ strong, em {
   margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003227}}
-#block-views-homepage-images-block .flex-direction-nav {
+#block-views-homepage-images-block .flex-direction-nav, #homepage-images .flex-direction-nav {
   *height: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003229}}
-#block-views-homepage-images-block .flex-direction-nav a {
+#block-views-homepage-images-block .flex-direction-nav a, #homepage-images .flex-direction-nav a {
   display: block;
   width: 40px;
   height: 40px;
@@ -2271,51 +2271,51 @@ strong, em {
   transition: all .3s ease;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003246}}
-#block-views-homepage-images-block .flex-direction-nav .flex-prev {
+#block-views-homepage-images-block .flex-direction-nav .flex-prev, #homepage-images .flex-direction-nav .flex-prev {
   left: -50px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003249}}
-#block-views-homepage-images-block .flex-direction-nav .flex-next {
+#block-views-homepage-images-block .flex-direction-nav .flex-next, #homepage-images .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003254}}
-#block-views-homepage-images-block .flexslider:hover .flex-prev {
+#block-views-homepage-images-block .flexslider:hover .flex-prev, #homepage-images .flexslider:hover .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003258}}
-#block-views-homepage-images-block .flexslider:hover .flex-next {
+#block-views-homepage-images-block .flexslider:hover .flex-next, #homepage-images .flexslider:hover .flex-next {
   opacity: 0.7;
   right: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003262}}
-#block-views-homepage-images-block .flexslider:hover .flex-next:hover, #block-views-homepage-images-block .flexslider:hover .flex-prev:hover {
+#block-views-homepage-images-block .flexslider:hover .flex-next:hover, #block-views-homepage-images-block .flexslider:hover .flex-prev:hover, #homepage-images .flexslider:hover .flex-next:hover, #homepage-images .flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003266}}
-#block-views-homepage-images-block .flex-direction-nav .flex-disabled {
+#block-views-homepage-images-block .flex-direction-nav .flex-disabled, #homepage-images .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003271}}
-#block-views-homepage-images-block .flex-direction-nav a:before {
+#block-views-homepage-images-block .flex-direction-nav a:before, #homepage-images .flex-direction-nav a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
   display: inline-block;
   content: '\f001';
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003277}}
-#block-views-homepage-images-block .flex-direction-nav a.flex-next:before {
+#block-views-homepage-images-block .flex-direction-nav a.flex-next:before, #homepage-images .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003281}}
-#block-views-homepage-images-block .views-field-field-homepage-image-tagline {
+#block-views-homepage-images-block .views-field-field-homepage-image-tagline, #homepage-images .views-field-field-homepage-image-tagline {
   padding: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003283}}
-#block-views-homepage-images-block .views-field-field-homepage-image-tagline a {
+#block-views-homepage-images-block .views-field-field-homepage-image-tagline a, #homepage-images .views-field-field-homepage-image-tagline a {
   color: #fff;
   font-style: italic;
   padding-left: 1em;
