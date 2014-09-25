@@ -198,9 +198,11 @@
 #our-team {
   color: $red;
   .views-field-title {
+    border-right: 1px solid $red;
     text-transform: uppercase;
   }
   .views-field-field-team-bio {
+    border-right: 1px solid $red;
     padding-right: 1em;
   }
 }
