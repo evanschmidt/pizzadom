@@ -55,7 +55,6 @@
       margin-bottom: -260px;
     }
     #main {
-      color: $red;
       position: relative;
       //top: 260px;
       h2 {
@@ -173,6 +172,9 @@
 #our-contact {
   background: none no-repeat scroll 0 0 $red;
   color: $white;
+  h2, h3, a, p {
+    color: $white;
+  }
 }
 
 .block {
