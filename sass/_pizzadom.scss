@@ -39,9 +39,11 @@
   }
   #navigation {
     clear: both;
+    position: relative;
+    z-index: 9999;
   }
   .region-navigation {
-    background: none repeat scroll 0 0 #ffffff;
+    //background: none repeat scroll 0 0 #ffffff;
     height: 252px;
     left: 0;
     position: fixed;
@@ -94,7 +96,7 @@
     @include zen-grid-item(7, 1);
     @include zen-nested-container();
     //@include zen-grid-background();
-    background: none repeat scroll 0 0 #FFFFFF;
+    //background: none repeat scroll 0 0 #FFFFFF;
     position: fixed;
     z-index: 999;
     a {
