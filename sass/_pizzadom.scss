@@ -210,7 +210,12 @@
     }
   }
   .views-column-last {
-    border-right: none;
+    .views-field-title {
+      border-right: none;
+    }
+    .views-field-field-team-bio {
+      border-right: none;
+    }
   }
 }
 #our-farmers {
