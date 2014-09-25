@@ -2256,9 +2256,11 @@ strong, em {
 #block-block-2 img {
   left: 40%;
   position: fixed;
-  top: 50px;
+  top: 5%;
   transform-origin: left top 0;
   width: 20%;
+  max-width: 263px;
+  max-height: 263px;
   z-index: 999;
 }
 
