@@ -2179,8 +2179,8 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003175}}
 #our-story img {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 55px;
+  left: 40px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003182}}
