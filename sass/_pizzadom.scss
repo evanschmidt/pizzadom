@@ -70,7 +70,8 @@
         }
       }
       p {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         max-width: 695px;
       }
     }
@@ -175,7 +176,7 @@
   }
 }
 #our-farmers {
-  //background: url("/sites/default/files/images/farm_field.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  text-align: center;
   min-height: 900px;
 }
 #our-contact {
