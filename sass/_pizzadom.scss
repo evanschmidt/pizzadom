@@ -109,10 +109,11 @@
     position: fixed;
     z-index: 999;
     a {
-      color: $red;
-      font-size: 1.2em;
-      padding: 1em;
       display: block;
+      font-size: 1em;
+      font-weight: bold;
+      padding: 0 0.75em 0 0;
+      text-transform: uppercase;
     }
     a.active, a:hover {
       //color: #FFFFFF;
