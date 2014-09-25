@@ -195,6 +195,15 @@
     z-index: 1;
   }
 }
+#our-team {
+  color: $red;
+  .views-field-title {
+    text-transform: uppercase;
+  }
+  .views-field-field-team-bio {
+    padding: 1em;
+  }
+}
 #our-farmers {
   color: $white;
   text-align: center;
