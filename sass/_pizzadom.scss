@@ -22,18 +22,6 @@
 }
 .pageflow-wrapper {
   #page {
-    h2 {
-    border-bottom: 1px solid $red;
-    border-top: 1px solid $red;
-    color: $red;
-    margin: 1em auto;
-    text-align: center;
-    text-transform: uppercase;
-    width: 200px;
-      a {
-        color: $red;
-      }
-    }
   }
   #header {
     height: 16.8em;
@@ -69,6 +57,18 @@
     #main {
       position: relative;
       //top: 260px;
+      h2 {
+        border-bottom: 1px solid $red;
+        border-top: 1px solid $red;
+        color: $red;
+        margin: 1em auto;
+        text-align: center;
+        text-transform: uppercase;
+        width: 200px;
+        a {
+          color: $red;
+        }
+      }
     }
     .node-page {
       min-height: 550px;
