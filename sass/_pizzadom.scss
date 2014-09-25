@@ -206,6 +206,9 @@
     border-right: 1px solid $red;
     padding: 0 1em;
   }
+  .views-column-last {
+    border-right: none;
+  }
 }
 #our-farmers {
   color: $white;
