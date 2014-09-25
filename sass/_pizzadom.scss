@@ -71,16 +71,16 @@
         margin: 10% auto 1em;
         text-align: center;
         text-transform: uppercase;
-        width: 200px;
+        width: 250px;
         a {
           color: $red;
         }
       }
       h2:before {
-        content: "\2022";
+        content: " \2022 ";
       }
       h2:after {
-        content: "\2022";
+        content: " \2022 ";
       }
       p {
         margin-left: auto;

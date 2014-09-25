@@ -2032,7 +2032,7 @@ tr.selected td {
   margin: 10% auto 1em;
   text-align: center;
   text-transform: uppercase;
-  width: 200px;
+  width: 250px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000375}}
 .pageflow-wrapper .pageflow-page #main h2 a {
@@ -2040,11 +2040,11 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000379}}
 .pageflow-wrapper .pageflow-page #main h2:before {
-  content: "\2022";
+  content: " \2022 ";
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000382}}
 .pageflow-wrapper .pageflow-page #main h2:after {
-  content: "\2022";
+  content: " \2022 ";
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000385}}
 .pageflow-wrapper .pageflow-page #main p {
