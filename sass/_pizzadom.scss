@@ -104,14 +104,14 @@
       display: block;
     }
     a.active, a:hover {
-      color: #FFFFFF;
+      //color: #FFFFFF;
     }
     li {
       padding: 0;
       text-align: center;
     }
     li.active-trail, li:hover {
-      background: none repeat scroll 0 0 $red;   
+      //background: none repeat scroll 0 0 $red;   
     }
     li:nth-child(1) {
       @include zen-grid-item(1, 1);

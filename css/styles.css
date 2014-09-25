@@ -2084,18 +2084,10 @@ tr.selected td {
   padding: 1em;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003106}}
-#block-system-main-menu .menu a.active, #block-system-main-menu .menu a:hover {
-  color: #FFFFFF;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003109}}
 #block-system-main-menu .menu li {
   padding: 0;
   text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003113}}
-#block-system-main-menu .menu li.active-trail, #block-system-main-menu .menu li:hover {
-  background: none repeat scroll 0 0 #89191c;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003116}}
 #block-system-main-menu .menu li:nth-child(1) {
