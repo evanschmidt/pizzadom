@@ -77,7 +77,7 @@
       }
     }
     .node-page {
-      min-height: 550px;
+      //min-height: 550px;
     }
   }
 }
@@ -179,6 +179,7 @@
 #our-farmers {
   text-align: center;
   min-height: 900px;
+  padding-top: 0;
 }
 #our-contact {
   background: none no-repeat scroll 0 0 $red;
