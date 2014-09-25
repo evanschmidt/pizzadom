@@ -1966,11 +1966,6 @@ tr.selected td {
  * Adds styles for Pizza Domenica
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\000038}}
-#page {
-  border: 1px dotted #89191c;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000314}}
 #page-title {
   display: none;
@@ -2030,7 +2025,7 @@ tr.selected td {
   border-bottom: 1px solid #89191c;
   border-top: 1px solid #89191c;
   color: #89191c;
-  margin: 1em auto;
+  margin: 1.5em auto 1em;
   text-align: center;
   text-transform: uppercase;
   width: 200px;
