@@ -200,11 +200,14 @@
   .views-field-title {
     border-right: 1px solid $red;
     text-transform: uppercase;
-    padding: 0 1em;
+    padding: 1em;
   }
   .views-field-field-team-bio {
     border-right: 1px solid $red;
-    padding: 0 1em;
+    padding: 1em;
+    p {
+      margin: 0;
+    }
   }
   .views-column-last {
     border-right: none;
