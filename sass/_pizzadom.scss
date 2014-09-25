@@ -134,6 +134,11 @@
 
   }
 }
+#homepage-image-background {
+  h2 {
+    display: none;
+  }
+}
 #hi-neighbor {
   color: $red;
   text-align: center;
@@ -250,7 +255,7 @@ strong, em {
 }
 #footer {
 }
-#block-views-homepage-images-block, #homepage-images {
+#block-views-homepage-images-block, #homepage-images, #homepage-image-background {
   color: $white;
   .flexslider {
     background: none repeat scroll 0 0 transparent;
