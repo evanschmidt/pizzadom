@@ -2212,12 +2212,12 @@ tr.selected td {
 #our-team .views-field-title {
   border-right: 1px solid #89191c;
   text-transform: uppercase;
-  padding: 1em;
+  padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003205}}
 #our-team .views-field-field-team-bio {
   border-right: 1px solid #89191c;
-  padding: 1em;
+  padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003208}}
 #our-team .views-field-field-team-bio p {
