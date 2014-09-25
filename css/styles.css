@@ -1978,14 +1978,14 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000326}}
 .pageflow-wrapper #header {
-  background: none repeat scroll 0 0 #FFFF;
+  background: none repeat scroll 0 0 #FFFFFF;
   height: 16.8em;
   position: relative;
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\0000332}}
 .pageflow-wrapper .header__region {
-  background: none repeat scroll 0 0 #FFFF;
+  background: none repeat scroll 0 0 #FFFFFF;
   height: 16.8em;
   clear: both;
   display: block;
