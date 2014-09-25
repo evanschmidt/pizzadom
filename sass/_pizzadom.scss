@@ -175,6 +175,19 @@
   h2, h3, a, p {
     color: $white;
   }
+  h2 {
+    border-bottom: none;
+    border-top: none;
+    color: $white;
+    margin: 1em auto;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;
+    a {
+      color: $white;
+    }
+  }
+
 }
 
 .block {
