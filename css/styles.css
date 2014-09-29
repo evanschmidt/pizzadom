@@ -2418,7 +2418,14 @@ strong, em {
   padding-left: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003385}}
+#block-instagram-block-instagram-block img {
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003392}}
 .views-responsive-grid {
   padding-left: 10px;
   padding-right: 10px;
@@ -2438,24 +2445,24 @@ strong, em {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003396}}
 .views-responsive-grid .views-row {
   clear: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003399}}
 .views-responsive-grid.views-columns-2 {
   padding-left: 0;
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003402}}
 .views-responsive-grid.views-columns-2 .views-column-1 {
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003405}}
 .views-responsive-grid.views-columns-2 .views-column-2 {
   float: left;
   width: 50%;
@@ -2463,26 +2470,26 @@ strong, em {
   margin-right: -100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003409}}
 .views-responsive-grid.views-columns-3 {
   padding-left: 0;
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003412}}
 .views-responsive-grid.views-columns-3 .views-column-1 {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
   margin-right: -33.33333%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003415}}
 .views-responsive-grid.views-columns-3 .views-column-2 {
   float: left;
   width: 33.33333%;
   margin-left: 33.33333%;
   margin-right: -66.66667%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003418}}
 .views-responsive-grid.views-columns-3 .views-column-3 {
   float: left;
   width: 33.33333%;
@@ -2490,33 +2497,33 @@ strong, em {
   margin-right: -100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003422}}
 .views-responsive-grid.views-columns-4 {
   padding-left: 0;
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003426}}
 .views-responsive-grid.views-columns-4 .views-column-1 {
   float: left;
   width: 25%;
   margin-left: 0%;
   margin-right: -25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003429}}
 .views-responsive-grid.views-columns-4 .views-column-2 {
   float: left;
   width: 25%;
   margin-left: 25%;
   margin-right: -50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003432}}
 .views-responsive-grid.views-columns-4 .views-column-3 {
   float: left;
   width: 25%;
   margin-left: 50%;
   margin-right: -75%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/Besh\/PizzaDomenica\/drupal-dev\/sites\/all\/themes\/pizzadom\/sass\/_pizzadom\.scss}line{font-family:\00003435}}
 .views-responsive-grid.views-columns-4 .views-column-4 {
   float: left;
   width: 25%;

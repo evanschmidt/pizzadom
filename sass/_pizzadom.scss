@@ -380,6 +380,14 @@ strong, em {
     }
   }
 }
+//instagram block layout
+#block-instagram-block-instagram-block {
+  img {
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;  
+  }
+}
 // responsive grid layout
 .views-responsive-grid {
   @include zen-grid-item-base();
