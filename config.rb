@@ -12,8 +12,8 @@ environment = :development
 #environment = :production
 
 # In development, we can turn on the FireCompass-compatible debug_info.
-firecompass = false
-#firecompass = true
+#firecompass = false
+firecompass = true
 
 
 # Location of the theme's resources.
