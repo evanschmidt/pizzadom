@@ -249,14 +249,14 @@
       text-align: left;
       text-transform: uppercase;
       width: auto;
-      p {
-        width: auto;
-      }
       a {
         color: $white;
       }
     }    
-  }
+  p {
+      width: auto;
+    }
+}
 
 }
 

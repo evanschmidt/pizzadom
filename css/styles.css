@@ -2273,12 +2273,12 @@ tr.selected td {
   width: auto;
 }
 /* line 252, ../sass/_pizzadom.scss */
-#our-contact #main h2 p {
-  width: auto;
-}
-/* line 255, ../sass/_pizzadom.scss */
 #our-contact #main h2 a {
   color: white;
+}
+/* line 256, ../sass/_pizzadom.scss */
+#our-contact #main p {
+  width: auto;
 }
 
 /* line 265, ../sass/_pizzadom.scss */
