@@ -237,6 +237,9 @@
   h2, h3, a, p {
     color: $white;
   }
+  p {
+    width: auto;
+  }
   #main {
     h2 {
       border-bottom: none;
