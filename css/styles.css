@@ -2278,7 +2278,7 @@ tr.selected td {
 }
 /* line 256, ../sass/_pizzadom.scss */
 #our-contact #main p {
-  width: auto;
+  max-width: 100%;
 }
 
 /* line 265, ../sass/_pizzadom.scss */
