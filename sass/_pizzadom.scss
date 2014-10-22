@@ -20,7 +20,6 @@
     background: none repeat scroll 0 0 #FFFFFF;
   }
 }
-.pageflow-wrapper {
   #page {
   }
   #header {
@@ -92,7 +91,6 @@
       //min-height: 550px;
     }
   }
-}
 #block-system-main-menu {
     @include zen-grid-item-base();
     $zen-column-count: 7;
