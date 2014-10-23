@@ -233,6 +233,7 @@ $zen-auto-include-item-base: false;
   #block-block-1, #block-block-1--3 {
     @include zen-grid-item(1, 1);
     text-align: left;
+    z-index: 1;
     p {
       padding: 4em 2em 0;
     }
@@ -240,10 +241,12 @@ $zen-auto-include-item-base: false;
   #block-block-2, #block-block-2--3 {
     @include zen-grid-item(2, 2);
     text-align: center;
+    z-index: 1;
   }
   #block-block-3, #block-block-3--3 {
     @include zen-grid-item(1, 4);    
     text-align: right;
+    z-index: 1;
     p {
       padding: 2.5em 2em 0 0;
     }
