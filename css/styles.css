@@ -2152,7 +2152,7 @@ tr.selected td {
 }
 
 /* line 149, ../sass/_pizzadom.scss */
-#fullpage h2 {
+#fullpage #content h2 {
   border-bottom: 1px solid #89191c;
   border-top: 1px solid #89191c;
   color: #89191c;
@@ -2162,19 +2162,19 @@ tr.selected td {
   width: 275px;
 }
 /* line 157, ../sass/_pizzadom.scss */
-#fullpage h2 a {
+#fullpage #content h2 a {
   color: #89191c;
 }
 /* line 161, ../sass/_pizzadom.scss */
-#fullpage h2:before {
+#fullpage #content h2:before {
   content: " \2022 ";
 }
 /* line 164, ../sass/_pizzadom.scss */
-#fullpage h2:after {
+#fullpage #content h2:after {
   content: " \2022 ";
 }
 /* line 167, ../sass/_pizzadom.scss */
-#fullpage p {
+#fullpage #content p {
   margin-left: auto;
   margin-right: auto;
   max-width: 695px;
