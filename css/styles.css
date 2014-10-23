@@ -2009,7 +2009,7 @@ tr.selected td {
 #navigation {
   clear: both;
   position: relative;
-  z-index: 9999;
+  z-index: 999;
 }
 
 /* line 47, ../sass/_pizzadom.scss */
