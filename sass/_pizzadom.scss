@@ -145,6 +145,32 @@
 
   }
 }
+#fullpage {
+  h2 {
+    border-bottom: 1px solid $red;
+    border-top: 1px solid $red;
+    color: $red;
+    margin: 10% auto 1em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 275px;
+    a {
+      color: $red;
+    }
+  }
+  h2:before {
+    content: " \2022 ";
+  }
+  h2:after {
+    content: " \2022 ";
+  }
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 695px;
+  }  
+}
+
 #homepage-image-background {
   padding-top: 360px;
   h2 {
@@ -159,11 +185,11 @@
     display: none;
   }
 }
-.section-2 {
+.section-2,#hi-neighbor {
   color: $red;
   text-align: center;
 }
-#our-story {
+.section-4,#our-story {
   color: $red;
   text-align: center;
   min-height: 450px;
@@ -185,7 +211,7 @@
   }
 }
 
-#how-we-roll {
+.section-6,#how-we-roll {
   color: $red;
   text-align: center;
   min-height: 618px;
@@ -201,7 +227,7 @@
     z-index: 1;
   }
 }
-#our-team {
+.section-5,#our-team {
   color: $red;
   .views-field-title {
     border-right: 1px solid $red;
@@ -225,11 +251,11 @@
     }
   }
 }
-#our-farmers {
+.section-8,#our-farmers {
   color: $white;
   text-align: center;
 }
-#our-contact {
+.section-10,#our-contact {
   background: none no-repeat scroll 0 0 $red;
   color: $white;
   h2, h3, a, p {
