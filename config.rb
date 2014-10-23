@@ -15,6 +15,7 @@ environment = :development
 #firecompass = false
 firecompass = true
 
+disable_warnings = true
 
 # Location of the theme's resources.
 css_dir         = "css"
