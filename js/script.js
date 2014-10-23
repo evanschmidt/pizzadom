@@ -22,7 +22,7 @@ Drupal.behaviors.my_custom_behavior = {
     //fullPage.js
     $('#fullpage').fullpage({
         //Navigation
-        menu: false,
+        menu: truw,
         anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         navigation: false,
         navigationPosition: 'right',
@@ -31,7 +31,7 @@ Drupal.behaviors.my_custom_behavior = {
         slidesNavPosition: 'bottom',
 
         //Scrolling
-        css3: false,
+        css3: true,
         scrollingSpeed: 700,
         autoScrolling: true,
         easing: 'easeInQuart',
@@ -52,10 +52,9 @@ Drupal.behaviors.my_custom_behavior = {
         //Design
         verticalCentered: true,
         resize : true,
-        sectionsColor : ['#ccc', '#fff'],
         paddingTop: '3em',
-        paddingBottom: '10px',
-        fixedElements: '#header, .footer',
+        paddingBottom: '3em',
+        fixedElements: '#header',
         responsive: 0,
 
         //Custom selectors
