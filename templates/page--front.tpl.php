@@ -8,7 +8,7 @@
  */
 ?>
 
-<div id="page fullpage">
+<div id="page">
 
   <?php if ($page['header']): ?>
     <header class="header" id="header" role="banner">
@@ -81,7 +81,7 @@
 
   <div id="main">
 
-    <div id="content" class="column" role="main">
+    <div id="content fullpage" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>
