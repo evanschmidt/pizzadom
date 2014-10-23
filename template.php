@@ -7,6 +7,9 @@
  * @see https://drupal.org/node/1728096
  */
 
+drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.easings.min.js');
+drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.slimscroll.min.js');
+drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/jquery.fullPage.js');
 
 /**
  * Override or insert variables into the maintenance page template.
