@@ -48,5 +48,6 @@ Drupal.behaviors.my_custom_behavior = {
     };
 
     //fullPage.js
+    $('#fullpage').fullpage();
 
 })(jQuery, Drupal, this, this.document);
