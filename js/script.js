@@ -50,16 +50,16 @@ Drupal.behaviors.my_custom_behavior = {
     //fullPage.js
     $('#fullpage').fullpage({
             //Navigation
-            menu: false,
-            anchors:['firstSlide', 'secondSlide'],
-            navigation: false,
+            menu: true,
+            anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
+            navigation: true,
             navigationPosition: 'right',
-            navigationTooltips: ['firstSlide', 'secondSlide'],
+            navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
             slidesNavigation: true,
             slidesNavPosition: 'bottom',
 
             //Scrolling
-            css3: false,
+            css3: true,
             scrollingSpeed: 700,
             autoScrolling: true,
             easing: 'easeInQuart',
