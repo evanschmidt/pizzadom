@@ -2180,37 +2180,34 @@ tr.selected td {
   max-width: 695px;
 }
 
-/* line 174, ../sass/_pizzadom.scss */
-#homepage-image-background {
-  padding-top: 360px;
-}
-/* line 176, ../sass/_pizzadom.scss */
+/* line 175, ../sass/_pizzadom.scss */
 #homepage-image-background h2 {
   display: none;
 }
 
-/* line 180, ../sass/_pizzadom.scss */
+/* line 179, ../sass/_pizzadom.scss */
 #welcome {
   margin-bottom: -0.65em;
   min-height: 0;
   padding-top: 0;
 }
-/* line 184, ../sass/_pizzadom.scss */
+/* line 183, ../sass/_pizzadom.scss */
 #welcome #main {
   display: none;
 }
 
-/* line 188, ../sass/_pizzadom.scss */
+/* line 187, ../sass/_pizzadom.scss */
 .section-2, #hi-neighbor {
   color: #89191c;
   text-align: center;
 }
 
-/* line 192, ../sass/_pizzadom.scss */
+/* line 191, ../sass/_pizzadom.scss */
 .section-4, #our-story {
   color: #89191c;
   text-align: center;
   min-height: 450px;
+  position: relative;
 }
 /* line 196, ../sass/_pizzadom.scss */
 .section-4 a, #our-story a {

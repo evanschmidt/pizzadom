@@ -172,7 +172,6 @@
 }
 
 #homepage-image-background {
-  padding-top: 360px;
   h2 {
     display: none;
   }
@@ -193,6 +192,7 @@
   color: $red;
   text-align: center;
   min-height: 450px;
+  position: relative;
   a {
     color: $red;    
   }
