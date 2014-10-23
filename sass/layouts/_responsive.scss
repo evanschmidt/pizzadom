@@ -227,6 +227,9 @@ $zen-auto-include-item-base: false;
   }
   #main {
   }
+  #navigation {
+       @include zen-clear();   
+  }
   #block-views-homepage-images-block {
     display: block;
   }
