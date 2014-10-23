@@ -1994,14 +1994,12 @@ tr.selected td {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
 }
 
 /* line 42, ../sass/_pizzadom.scss */
 #navigation {
   clear: both;
   position: relative;
-  z-index: 9999;
 }
 
 /* line 47, ../sass/_pizzadom.scss */
@@ -2011,7 +2009,6 @@ tr.selected td {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 998;
 }
 
 /* line 56, ../sass/_pizzadom.scss */
