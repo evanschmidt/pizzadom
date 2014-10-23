@@ -19,6 +19,9 @@ Drupal.behaviors.my_custom_behavior = {
 
     // Place your code here.
 
+    //fullPage.js
+    $('#fullpage').fullpage();
+
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
         colorboxResize();
@@ -46,8 +49,5 @@ Drupal.behaviors.my_custom_behavior = {
 
       }
     };
-
-    //fullPage.js
-    $('#fullpage').fullpage();
 
 })(jQuery, Drupal, this, this.document);
