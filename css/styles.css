@@ -1997,6 +1997,7 @@ tr.selected td {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 99;
 }
 
 /* line 42, ../sass/_pizzadom.scss */
