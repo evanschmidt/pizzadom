@@ -81,10 +81,10 @@
 
   <div id="main">
 
-    <div id="content fullpage" class="column" role="main">
+    <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
-      <a id="main-content"></a>
+      <a id="main-content fullpage"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
