@@ -23,10 +23,10 @@ Drupal.behaviors.my_custom_behavior = {
     $('#fullpage').fullpage({
         //Navigation
         menu: false,
-        anchors:['firstSlide', 'secondSlide'],
+        anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         navigation: false,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
+        navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
 
