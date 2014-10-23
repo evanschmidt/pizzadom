@@ -2206,7 +2206,6 @@ tr.selected td {
 .section-4, #our-story {
   color: #89191c;
   text-align: center;
-  min-height: 450px;
   position: relative;
 }
 /* line 196, ../sass/_pizzadom.scss */
@@ -2234,7 +2233,6 @@ tr.selected td {
 .section-6, #how-we-roll {
   color: #89191c;
   text-align: center;
-  min-height: 618px;
 }
 /* line 218, ../sass/_pizzadom.scss */
 .section-6 a, #how-we-roll a {
