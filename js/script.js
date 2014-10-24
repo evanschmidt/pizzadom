@@ -31,7 +31,7 @@ Drupal.behaviors.my_custom_behavior = {
         slidesNavPosition: 'bottom',
 
         //Scrolling
-        css3: true,
+        css3: false,
         scrollingSpeed: 1700,
         autoScrolling: false,
         easing: 'easeInQuart',
