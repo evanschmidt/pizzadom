@@ -20,7 +20,8 @@ Drupal.behaviors.my_custom_behavior = {
     // Place your code here.
 
     //fullPage.js
-//    $('#fullpage').fullpage();
+    $('#fullpage').fullpage();
+ /*
     $('#fullpage').fullpage({
         //Navigation
         menu: #block-system-main-menu .menu,
@@ -70,6 +71,7 @@ Drupal.behaviors.my_custom_behavior = {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction){}
     });
+*/
 
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
@@ -98,5 +100,4 @@ Drupal.behaviors.my_custom_behavior = {
 
       }
     };
-
 })(jQuery, Drupal, this, this.document);
