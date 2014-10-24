@@ -146,7 +146,7 @@ function pizzadom_menu_link(array $variables) {
   }
  
  // This is where you check the menu name and assign the class.
-  if($menuname == 'main-menu') {
+  if($menuname == 'main_menu') {
     $element['#localized_options']['attributes']['data-menuanchor'][] = 'section-';
     $element['#localized_options']['attributes']['class'][] = 'hello';
   }
