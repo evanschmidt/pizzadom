@@ -22,9 +22,9 @@ Drupal.behaviors.my_custom_behavior = {
     //fullPage.js
     $('#fullpage').fullpage({
         //Navigation
-        menu: false,
+        menu: true,
         anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
-        navigation: true,
+        navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         slidesNavigation: true,
