@@ -55,7 +55,7 @@ function pizzadom_preprocess_html(&$variables, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 function pizzadom_preprocess_page(&$variables, $hook) {
-  dsm($variables);
+  dpm($variables);
   //$variables['sample_variable'] = t('Lorem ipsum.');
   if ($variables['is_front']) {
     drupal_add_css(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.css');
@@ -165,7 +165,7 @@ function pizzadom_menu_link(array $variables) {
 */
 
     $element['#attributes']['data-menuanchor'][] = $element['#title'];
-  dsm ($element['#original_link']);
+  dpm ($element['#original_link']);
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
