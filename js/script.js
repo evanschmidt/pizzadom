@@ -22,7 +22,7 @@ Drupal.behaviors.my_custom_behavior = {
     //fullPage.js
     $('#fullpage').fullpage({
         //Navigation
-        menu: true,
+        menu: false,
         anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         navigation: false,
         navigationPosition: 'right',
@@ -31,7 +31,7 @@ Drupal.behaviors.my_custom_behavior = {
         slidesNavPosition: 'bottom',
 
         //Scrolling
-        css3: false,
+        css3: true,
         scrollingSpeed: 1700,
         autoScrolling: false,
         easing: 'easeInQuart',
