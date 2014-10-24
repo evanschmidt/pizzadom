@@ -146,10 +146,10 @@ function pizzadom_menu_link(array $variables) {
   }
  
  // This is where you check the menu name and assign the class.
-  if($menuname == 'main_menu') {
+ // if($menuname == 'main-menu') {
     $element['#localized_options']['attributes']['data-menuanchor'][] = 'section-';
-    $element['#localized_options']['attributes']['class'][] = 'hello';
-  }
+    $element['#localized_options']['attributes']['class'][] = '$menuname';
+  //}
   dsm ($element);
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
