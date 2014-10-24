@@ -37,7 +37,7 @@ function pizzadom_preprocess_maintenance_page(&$variables, $hook) {
  *   The name of the template being rendered ("html" in this case.)
  */
 function pizzadom_preprocess_html(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
+  //$variables['sample_variable'] = t('Lorem ipsum.');
 
   if ($variables['is_front']) {
     drupal_add_css(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.css');
