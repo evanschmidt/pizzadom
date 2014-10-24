@@ -32,16 +32,16 @@ Drupal.behaviors.my_custom_behavior = {
         slidesNavPosition: 'bottom',
 
         //Scrolling
-        css3: false,
+        css3: true,
         scrollingSpeed: 1700,
-        autoScrolling: false,
+        autoScrolling: true,
         easing: 'easeInQuart',
         easingcss3: 'ease',
         loopBottom: false,
         loopTop: false,
         loopHorizontal: true,
         continuousVertical: false,
-        normalScrollElements: '#element1, .element2',
+        normalScrollElements: '#section3, #section5, #section8, #section9, #section10',
         scrollOverflow: false,
         touchSensitivity: 15,
         normalScrollElementTouchThreshold: 5,
@@ -54,7 +54,7 @@ Drupal.behaviors.my_custom_behavior = {
         verticalCentered: true,
         resize : false,
         paddingTop: '4em',
-        paddingBottom: '6em',
+        paddingBottom: '4em',
         fixedElements: '#header',
         responsive: 1,
 
