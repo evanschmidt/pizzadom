@@ -56,14 +56,14 @@ function pizzadom_preprocess_html(&$variables, $hook) {
  */
 function pizzadom_preprocess_page(&$variables, $hook) {
   //$variables['sample_variable'] = t('Lorem ipsum.');
+  if ($variables['is_front']) {
   dpm($variables);
-/*  if ($variables['is_front']) {
-    drupal_add_css(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.css');
-    drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.slimscroll.min.js');
-    drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.easings.min.js');
-    drupal_add_js(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.js');
+//    drupal_add_css(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.css');
+ //   drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.slimscroll.min.js');
+ //   drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.easings.min.js');
+ //   drupal_add_js(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.js');
   }
-*/
+
 }
 // */
 
