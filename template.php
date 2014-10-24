@@ -140,7 +140,6 @@ function pizzadom_preprocess_block(&$variables, $hook) {
 // */
 function pizzadom_menu_link(array $variables) {
   $element = $variables['element'];
-  dpm($variables);
   $sub_menu = '';
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
@@ -165,6 +164,7 @@ function pizzadom_menu_link(array $variables) {
 */
 
   $element['#attributes']['data-menuanchor'][] = $element['#title'];
+  dpm($variables);
   
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
