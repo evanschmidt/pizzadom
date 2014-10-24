@@ -33,7 +33,7 @@ Drupal.behaviors.my_custom_behavior = {
         //Scrolling
         css3: false,
         scrollingSpeed: 700,
-        autoScrolling: true,
+        autoScrolling: false,
         easing: 'easeInQuart',
         easingcss3: 'ease',
         loopBottom: false,
