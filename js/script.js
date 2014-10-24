@@ -20,7 +20,17 @@ Drupal.behaviors.my_custom_behavior = {
     // Place your code here.
 
     //fullPage.js
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+        //Navigation
+        menu: #block-system-main-menu .menu,
+        anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
+        navigation: false,
+        navigationPosition: 'right',
+        navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
+        slidesNavigation: false,
+        slidesNavPosition: 'bottom',
+
+    });
  /*
     $('#fullpage').fullpage({
         //Navigation
