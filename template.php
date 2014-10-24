@@ -6,9 +6,12 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728096
  */
-drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.easings.min.js');
-drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.slimscroll.min.js');
+//drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.easings.min.js');
+//drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.slimscroll.min.js');
 //drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/jquery.fullPage.js');
+
+drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.slimscroll.min.js');
+drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.easings.min.js');
 drupal_add_js(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.js');
 
 /**
