@@ -24,12 +24,7 @@ Drupal.behaviors.my_custom_behavior = {
         //Navigation
         menu: #block-system-main-menu .menu,
         anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
-        navigation: false,
-        navigationPosition: 'right',
-        navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
-        slidesNavigation: false,
-        slidesNavPosition: 'bottom',
-
+        navigationTooltips: ['section1', 'hi-neighbor', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
     });
  /*
     $('#fullpage').fullpage({
