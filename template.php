@@ -150,7 +150,7 @@ function pizzadom_menu_link(array $variables) {
     $element['#localized_options']['attributes']['data-menuanchor'][] = 'section-';
     $element['#localized_options']['attributes']['class'][] = 'hello';
   }
-dsp ($element);
+  dsm ($element);
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
