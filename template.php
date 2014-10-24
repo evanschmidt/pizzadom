@@ -163,7 +163,7 @@ function pizzadom_menu_link(array $variables) {
   $element['#attributes']['data-menuanchor'][] = 'menu-' . $element['#original_link']['mlid'] . ' '.$name_id;
 */
 
-  $element['#attributes']['data-menuanchor'][] = 'Hello;
+  $element['#attributes']['data-menuanchor'][] = 'Hello';
 
   dpm($variables);
   
