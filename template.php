@@ -164,8 +164,8 @@ function pizzadom_menu_link(array $variables) {
   $element['#attributes']['data-menuanchor'][] = 'menu-' . $element['#original_link']['mlid'] . ' '.$name_id;
 */
 
-    $element['#attributes']['data-menuanchor'][] = $element['#title'];
-  dpm ($element['#original_link']);
+  $element['#attributes']['data-menuanchor'][] = $element['#title'];
+  
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
