@@ -39,8 +39,6 @@ function pizzadom_preprocess_maintenance_page(&$variables, $hook) {
 function pizzadom_preprocess_html(&$variables, $hook) {
   //$variables['sample_variable'] = t('Lorem ipsum.');
 
-  dpm($variables);
-
   if ($variables['is_front']) {
     drupal_add_css(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.css');
     drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.slimscroll.min.js');
