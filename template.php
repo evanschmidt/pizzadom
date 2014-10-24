@@ -9,7 +9,7 @@
 drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.easings.min.js');
 drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.slimscroll.min.js');
 //drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/jquery.fullPage.js');
-drupal_add_js(libraries_get_path('jquery.fullpage') . '/js/fullpage/jquery.fullPage.js');
+drupal_add_js(libraries_get_path('jquery.fullpage') . 'jquery.fullPage.js');
 
 /**
  * Override or insert variables into the maintenance page template.
