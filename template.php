@@ -141,14 +141,16 @@ function pizzadom_preprocess_block(&$variables, $hook) {
 function pizzadom_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
-
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
   }
  
-    $element['#localized_options']['attributes']['data-anchor'][] = 'section-';
+ // This is where you check the menu name and assign the class.
+  if($menuname == 'main-menu') {
+    $element['#localized_options']['attributes']['data-menuanchor'][] = 'section-';
     $element['#localized_options']['attributes']['class'][] = 'hello';
- 
+  }
+dsp ($element);
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
