@@ -24,7 +24,7 @@ Drupal.behaviors.my_custom_behavior = {
         //Navigation
         menu: false,
         anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
-        navigation: false,
+        navigation: true,
         navigationPosition: 'right',
         navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         slidesNavigation: true,
@@ -32,7 +32,7 @@ Drupal.behaviors.my_custom_behavior = {
 
         //Scrolling
         css3: false,
-        scrollingSpeed: 700,
+        scrollingSpeed: 1700,
         autoScrolling: false,
         easing: 'easeInQuart',
         easingcss3: 'ease',
