@@ -54,7 +54,7 @@ Drupal.behaviors.my_custom_behavior = {
         verticalCentered: true,
         resize : false,
         paddingTop: '4em',
-        paddingBottom: '4em',
+        paddingBottom: '6em',
         fixedElements: '#header',
         responsive: 1,
 
