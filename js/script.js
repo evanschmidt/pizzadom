@@ -56,7 +56,7 @@ Drupal.behaviors.my_custom_behavior = {
         paddingTop: '4em',
         paddingBottom: '6em',
         fixedElements: '#header',
-        responsive: 1,
+        responsive: 0,
 
         //Custom selectors
         sectionSelector: '.section',
