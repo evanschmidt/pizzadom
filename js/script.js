@@ -22,7 +22,8 @@ Drupal.behaviors.my_custom_behavior = {
     //fullPage.js
     $('#fullpage').fullpage({
         scrollingSpeed: 1700,
-        autoScrolling: false,
+        autoScrolling: true,
+        normalScrollElements: '#section3, #section5, #section8, #section9, #section10',
         resize : false,
     });
  /*
