@@ -33,7 +33,7 @@ Drupal.behaviors.my_custom_behavior = {
         paddingTop: '4em',
         paddingBottom: '6em',
         fixedElements: '#header',
-        responsive: 0,
+        responsive: 1,
     });
  /*
     $('#fullpage').fullpage({
