@@ -35,8 +35,6 @@ Drupal.behaviors.my_custom_behavior = {
         fixedElements: '#header',
         responsive: 1,
         verticalCentered: false,
-        loopHorizontal: false,
-        scrollOverflow: true,
         css3: true
     });
  /*
