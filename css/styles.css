@@ -2116,7 +2116,7 @@ tr.selected td {
 /* line 105, ../sass/_pizzadom.scss */
 #fullpage #content h2 {
   color: #89191c;
-  margin: 1em auto;
+  margin: 0.5em auto;
   text-align: center;
   text-transform: uppercase;
   width: 275px;
@@ -2139,7 +2139,7 @@ tr.selected td {
   border-color: black;
   height: 1px;
   position: relative;
-  margin: auto;
+  margin: 0.5em auto;
   width: 111px;
 }
 /* line 131, ../sass/_pizzadom.scss */
