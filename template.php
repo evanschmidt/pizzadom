@@ -162,9 +162,9 @@ function pizzadom_menu_link(array $variables) {
   $name_id = preg_replace($pattern, '', $name_id);
   $element['#attributes']['data-menuanchor'][] = 'menu-' . $element['#original_link']['mlid'] . ' '.$name_id;
 */
-
-  $element['#attributes']['data-menuanchor'][] = $element['#localized_options']['fragment'];
-
+  if ($element['#localized_options']['fragment']) {
+    $element['#attributes']['data-menuanchor'][] = $element['#localized_options']['fragment'];
+  }
   //dpm($variables);
   
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
