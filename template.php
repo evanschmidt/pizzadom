@@ -162,10 +162,12 @@ function pizzadom_menu_link(array $variables) {
   $name_id = preg_replace($pattern, '', $name_id);
   $element['#attributes']['data-menuanchor'][] = 'menu-' . $element['#original_link']['mlid'] . ' '.$name_id;
 */
-  if ($element['#localized_options']['fragment']) {
+  if (isset($element['#localized_options']['fragment']) {
     //$element['#attributes']['data-menuanchor'][] = $element['#localized_options']['fragment'];
   }
-  dpm($element['#localized_options']['fragment']);
+  if (isset($element['#localized_options']['fragment']) {
+   dpm($element['#localized_options']['fragment']);
+  }  
   
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
