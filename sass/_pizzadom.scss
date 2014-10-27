@@ -176,6 +176,7 @@
     display: none;
   }
 }
+/*
 #welcome {
   margin-bottom: -0.65em;
   min-height: 0;
@@ -184,11 +185,12 @@
     display: none;
   }
 }
-.section-2,#hi-neighbor {
+*/
+.hi-neighbor {
   color: $red;
   text-align: center;
 }
-.section-4,#our-story {
+.our-story {
   color: $red;
   text-align: center;
 //  min-height: 450px;
@@ -211,7 +213,7 @@
   }
 }
 
-.section-6,#how-we-roll {
+.how-we-roll {
   color: $red;
   text-align: center;
 //  min-height: 618px;
@@ -227,7 +229,7 @@
     z-index: 1;
   }
 }
-.section-5,#our-team {
+.our-team {
   color: $red;
   .views-field-title {
     border-right: 1px solid $red;
@@ -251,11 +253,11 @@
     }
   }
 }
-.section-8,#our-farmers {
+.our-farmers {
   color: $white;
   text-align: center;
 }
-.section-10,#our-contact {
+.our-contact {
   background: none no-repeat scroll 0 0 $red;
   color: $white;
   h2, h3, a, p {
