@@ -27,8 +27,8 @@ Drupal.behaviors.my_custom_behavior = {
         scrollingSpeed: 1700,
         autoScrolling: false,
         resize : false,
-        anchors:['section1', 'section2', 'section3', 'our-story', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
-        navigationTooltips: ['section1', 'section2', 'section3', 'our-story', 'section5', 'how-we-roll', 'section7', 'section8', 'section9', 'section10'],
+        anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
+        navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
     });
  /*
     $('#fullpage').fullpage({
