@@ -129,11 +129,8 @@
     width: 111px;
   }
 .down-arrow {
-  background-color: $red;
-  border-radius: 222px;
-  margin: auto;
-  position: relative;
-  width: 78px;
+  position: absolute;
+  top: 0;
 }
   p {
     margin-left: auto;
