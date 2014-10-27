@@ -11,6 +11,7 @@
 
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
+  <?php	$title = str_replace("-", " ", $title); ?>
     <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
