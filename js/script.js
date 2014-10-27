@@ -80,6 +80,7 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
+/*
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
         colorboxResize();
@@ -104,7 +105,7 @@ Drupal.behaviors.my_custom_behavior = {
       $(window).resize(function() {
         colorboxResize(true);
       });
-
+*/
       }
     };
 })(jQuery, Drupal, this, this.document);
