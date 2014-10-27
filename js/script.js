@@ -17,7 +17,8 @@
 Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
 
-    // Place your code here.
+    // backstretch
+    $("#block-views-page-blocks-block-3").backstretch("/sites/default/files/images/page/our-dough.jpg");
 
     //fullPage.js
     $('#fullpage').fullpage({

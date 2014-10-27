@@ -61,10 +61,7 @@ function pizzadom_preprocess_page(&$variables, $hook) {
     drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.slimscroll.min.js');
     drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.easings.min.js');
     drupal_add_js(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.js');
-
     drupal_add_js(libraries_get_path('jquery.backstretch') . '/jquery.backstretch.min.js');
-    $("#block-views-page-blocks-block-3").backstretch("/sites/default/files/images/page/our-dough.jpg");
-
   }
 
 }
