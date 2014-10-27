@@ -2179,7 +2179,7 @@ tr.selected td {
 
 /* line 165, ../sass/_pizzadom.scss */
 .hi-neighbor {
-  background: url("/sites/default/files/images/down-arrow.png");
+  background: url("/sites/default/files/images/down-arrow.png") no-repeat scroll center top transparent;
   color: #89191c;
   text-align: center;
 }
