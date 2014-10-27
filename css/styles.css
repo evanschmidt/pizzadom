@@ -2169,7 +2169,7 @@ tr.selected td {
 }
 */
 /* line 157, ../sass/_pizzadom.scss */
-.welcome .block-title, .welcome .title-stripe {
+.welcome .block-title {
   display: none;
 }
 
