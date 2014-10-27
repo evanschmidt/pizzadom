@@ -32,6 +32,7 @@ Drupal.behaviors.my_custom_behavior = {
         resize : false,
         paddingTop: '6em',
         paddingBottom: '6em',
+        slidesNavigation: false,
     });
  /*
     $('#fullpage').fullpage({
