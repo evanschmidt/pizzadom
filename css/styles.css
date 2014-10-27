@@ -2127,11 +2127,11 @@ tr.selected td {
 }
 /* line 117, ../sass/_pizzadom.scss */
 #fullpage #content h2:before {
-  content: " \2022 ";
+  content: "\2022";
 }
 /* line 120, ../sass/_pizzadom.scss */
 #fullpage #content h2:after {
-  content: " \2022 ";
+  content: "\2022";
 }
 /* line 123, ../sass/_pizzadom.scss */
 #fullpage #content .title-stripe {
