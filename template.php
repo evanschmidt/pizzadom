@@ -165,7 +165,7 @@ function pizzadom_menu_link(array $variables) {
 
   $element['#attributes']['data-menuanchor'][] = $element['#localized_options']['fragment'];
 
-  dpm($variables);
+  //dpm($variables);
   
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
