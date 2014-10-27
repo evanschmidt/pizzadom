@@ -26,9 +26,14 @@ Drupal.behaviors.my_custom_behavior = {
     $('#fullpage').fullpage({
         scrollingSpeed: 1700,
         autoScrolling: false,
-        resize : false,
         anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
         navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
+        verticalCentered: true,
+        resize : false,
+        paddingTop: '4em',
+        paddingBottom: '6em',
+        fixedElements: '#header',
+        responsive: 0,
     });
  /*
     $('#fullpage').fullpage({
