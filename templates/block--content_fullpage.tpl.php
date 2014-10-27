@@ -12,9 +12,9 @@
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
   <?php	$title = str_replace("-", " ", $title); ?>
-  	<hr>
+  	<div class="title-stripe"></div>
     <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
-  	<hr>
+  	<div class="title-stripe"></div>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
   <?php print $content; ?>
