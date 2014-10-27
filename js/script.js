@@ -30,10 +30,8 @@ Drupal.behaviors.my_custom_behavior = {
         navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
         verticalCentered: true,
         resize : false,
-        paddingTop: '4em',
+        paddingTop: '6em',
         paddingBottom: '6em',
-        fixedElements: '#header',
-        responsive: 1,
     });
  /*
     $('#fullpage').fullpage({
