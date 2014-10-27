@@ -27,6 +27,7 @@ Drupal.behaviors.my_custom_behavior = {
         scrollingSpeed: 1700,
         autoScrolling: false,
         resize : false,
+        anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10'],
         navigationTooltips: ['section1', 'section2', 'section3', 'section4', 'section5', 'how-we-roll', 'section7', 'section8', 'section9', 'section10'],
     });
  /*
