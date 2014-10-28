@@ -26,7 +26,7 @@ Drupal.behaviors.my_custom_behavior = {
         "/sites/default/files/images/homepage/bite.jpg"
       , "/sites/default/files/images/homepage/drink.jpg"
       , "/sites/default/files/images/homepage/stay.jpg"
-    ], {duration: 3000, fade: 750});
+    ], {duration: 3000, slide: 750});
 
     //fullPage.js
     $('#fullpage').fullpage({
