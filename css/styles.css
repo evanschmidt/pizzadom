@@ -2211,7 +2211,7 @@ tr.selected td {
   z-index: 1;
 }
 /* line 190, ../sass/_pizzadom.scss */
-.our-story .view-page-blocks {
+.our-story .fp-tableCell {
   background: url("/sites/default/files/images/our-story.png");
 }
 /* line 193, ../sass/_pizzadom.scss */
