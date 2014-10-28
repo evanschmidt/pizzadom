@@ -34,6 +34,8 @@ Drupal.behaviors.my_custom_behavior = {
         paddingBottom: '6em',
         navigation: false,
         slidesNavigation: false,
+        slidesNavPosition: 'bottom',
+        loopHorizontal: true,
     });
  /*
     $('#fullpage').fullpage({
