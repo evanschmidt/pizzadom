@@ -154,6 +154,9 @@
   }
 }
 */
+.block {
+  margin-bottom: 0;
+}
 .welcome {
   .block-title, .title-stripe {
     display: none;
@@ -166,7 +169,6 @@
 .our-story {
   color: $red;
   text-align: center;
-//  min-height: 450px;
   position: relative;
   a {
     color: $red;    
