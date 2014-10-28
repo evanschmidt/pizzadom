@@ -31,7 +31,7 @@ Drupal.behaviors.my_custom_behavior = {
         navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
         verticalCentered: true,
         resize : false,
-        paddingTop: '16.8em',
+        paddingTop: '18em',
         paddingBottom: '6em',
         navigation: false,
         slidesNavigation: false,
