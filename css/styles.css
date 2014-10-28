@@ -2275,7 +2275,7 @@ tr.selected td {
 }
 /* line 241, ../sass/_pizzadom.scss */
 .our-farmers .title-stripe {
-  background-color: white;
+  background-color: white !important;
 }
 /* line 244, ../sass/_pizzadom.scss */
 .our-farmers .view-our-farmers {
