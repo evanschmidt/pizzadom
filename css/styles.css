@@ -2386,8 +2386,9 @@ strong, em {
 #block-block-1 h2, #block-block-3 h2 {
   margin: 0;
   padding: 0;
+  width: 170px;
 }
-/* line 328, ../sass/_pizzadom.scss */
+/* line 329, ../sass/_pizzadom.scss */
 #block-block-1 h2 a, #block-block-3 h2 a {
   background: url("/sites/default/files/images/button.png") no-repeat scroll 0 0 transparent;
   color: #780016;
@@ -2398,31 +2399,31 @@ strong, em {
   text-align: center;
   width: 170px;
 }
-/* line 338, ../sass/_pizzadom.scss */
+/* line 339, ../sass/_pizzadom.scss */
 #block-block-1 h2 a:hover, #block-block-3 h2 a:hover {
   color: white;
 }
 
-/* line 343, ../sass/_pizzadom.scss */
+/* line 344, ../sass/_pizzadom.scss */
 #block-block-1 {
   text-align: right;
 }
 
-/* line 346, ../sass/_pizzadom.scss */
+/* line 347, ../sass/_pizzadom.scss */
 #block-block-3 {
   text-align: left;
 }
 
-/* line 349, ../sass/_pizzadom.scss */
+/* line 350, ../sass/_pizzadom.scss */
 #block-block-2 {
   position: relative;
 }
-/* line 351, ../sass/_pizzadom.scss */
+/* line 352, ../sass/_pizzadom.scss */
 #block-block-2 p {
   margin: auto;
   width: 263px;
 }
-/* line 355, ../sass/_pizzadom.scss */
+/* line 356, ../sass/_pizzadom.scss */
 #block-block-2 img {
   /*
       left: 45%;
@@ -2436,27 +2437,27 @@ strong, em {
   */
 }
 
-/* line 369, ../sass/_pizzadom.scss */
+/* line 370, ../sass/_pizzadom.scss */
 #block-block-3 strong a, #block-block-3 a.email {
   color: #780016;
 }
 
-/* line 373, ../sass/_pizzadom.scss */
+/* line 374, ../sass/_pizzadom.scss */
 #block-block-9 {
   line-height: 1.5em;
   margin-bottom: 1em;
 }
-/* line 376, ../sass/_pizzadom.scss */
+/* line 377, ../sass/_pizzadom.scss */
 #block-block-9 p {
   margin: 0;
 }
 
-/* line 383, ../sass/_pizzadom.scss */
+/* line 384, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block, #homepage-images, #homepage-image-background {
   color: white;
   padding-top: 0 !important;
 }
-/* line 386, ../sass/_pizzadom.scss */
+/* line 387, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block .flexslider, #homepage-images .flexslider, #homepage-image-background .flexslider {
   background: none repeat scroll 0 0 transparent;
   border-left: 0 none;
@@ -2466,19 +2467,19 @@ strong, em {
   width: 100%;
   height: 100%;
 }
-/* line 395, ../sass/_pizzadom.scss */
+/* line 396, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block .view-footer, #homepage-images .view-footer, #homepage-image-background .view-footer {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
 }
 
-/* line 403, ../sass/_pizzadom.scss */
+/* line 404, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .view-instagram {
   width: 90%;
   margin: auto;
 }
-/* line 407, ../sass/_pizzadom.scss */
+/* line 408, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 img {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
@@ -2486,12 +2487,12 @@ strong, em {
   width: 95%;
 }
 
-/* line 416, ../sass/_pizzadom.scss */
+/* line 417, ../sass/_pizzadom.scss */
 .view-press-releases {
   margin: 6em auto;
   width: 80%;
 }
-/* line 419, ../sass/_pizzadom.scss */
+/* line 420, ../sass/_pizzadom.scss */
 .view-press-releases img {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
@@ -2499,24 +2500,24 @@ strong, em {
   float: left;
   margin: 1em;
 }
-/* line 426, ../sass/_pizzadom.scss */
+/* line 427, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-title {
   color: #780016;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 2em;
 }
-/* line 432, ../sass/_pizzadom.scss */
+/* line 433, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-field-press-source {
   font-style: italic;
 }
-/* line 442, ../sass/_pizzadom.scss */
+/* line 443, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-field-press-link a {
   color: #780016;
   text-decoration: none;
   font-style: italic;
 }
-/* line 448, ../sass/_pizzadom.scss */
+/* line 449, ../sass/_pizzadom.scss */
 .view-press-releases .press-line {
   background: #780016;
   clear: both;
@@ -2526,7 +2527,7 @@ strong, em {
   width: 90%;
 }
 
-/* line 458, ../sass/_pizzadom.scss */
+/* line 459, ../sass/_pizzadom.scss */
 .views-responsive-grid {
   padding-left: 10px;
   padding-right: 10px;
@@ -2546,24 +2547,24 @@ strong, em {
   clear: both;
 }
 
-/* line 462, ../sass/_pizzadom.scss */
+/* line 463, ../sass/_pizzadom.scss */
 .views-responsive-grid .views-row {
   clear: left;
 }
 
-/* line 465, ../sass/_pizzadom.scss */
+/* line 466, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 468, ../sass/_pizzadom.scss */
+/* line 469, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 .views-column-1 {
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
 }
-/* line 471, ../sass/_pizzadom.scss */
+/* line 472, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 .views-column-2 {
   float: left;
   width: 50%;
@@ -2571,26 +2572,26 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 475, ../sass/_pizzadom.scss */
+/* line 476, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 478, ../sass/_pizzadom.scss */
+/* line 479, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-1 {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
   margin-right: -33.33333%;
 }
-/* line 481, ../sass/_pizzadom.scss */
+/* line 482, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-2 {
   float: left;
   width: 33.33333%;
   margin-left: 33.33333%;
   margin-right: -66.66667%;
 }
-/* line 484, ../sass/_pizzadom.scss */
+/* line 485, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-3 {
   float: left;
   width: 33.33333%;
@@ -2598,33 +2599,33 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 488, ../sass/_pizzadom.scss */
+/* line 489, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 492, ../sass/_pizzadom.scss */
+/* line 493, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-1 {
   float: left;
   width: 25%;
   margin-left: 0%;
   margin-right: -25%;
 }
-/* line 495, ../sass/_pizzadom.scss */
+/* line 496, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-2 {
   float: left;
   width: 25%;
   margin-left: 25%;
   margin-right: -50%;
 }
-/* line 498, ../sass/_pizzadom.scss */
+/* line 499, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-3 {
   float: left;
   width: 25%;
   margin-left: 50%;
   margin-right: -75%;
 }
-/* line 501, ../sass/_pizzadom.scss */
+/* line 502, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-4 {
   float: left;
   width: 25%;
@@ -2632,40 +2633,40 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 505, ../sass/_pizzadom.scss */
+/* line 506, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 509, ../sass/_pizzadom.scss */
+/* line 510, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-1 {
   float: left;
   width: 20%;
   margin-left: 0%;
   margin-right: -20%;
 }
-/* line 512, ../sass/_pizzadom.scss */
+/* line 513, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-2 {
   float: left;
   width: 20%;
   margin-left: 20%;
   margin-right: -40%;
 }
-/* line 515, ../sass/_pizzadom.scss */
+/* line 516, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-3 {
   float: left;
   width: 20%;
   margin-left: 40%;
   margin-right: -60%;
 }
-/* line 518, ../sass/_pizzadom.scss */
+/* line 519, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-4 {
   float: left;
   width: 20%;
   margin-left: 60%;
   margin-right: -80%;
 }
-/* line 521, ../sass/_pizzadom.scss */
+/* line 522, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-5 {
   float: left;
   width: 20%;
