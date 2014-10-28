@@ -2450,7 +2450,7 @@ strong, em {
   -moz-border-radius: 200px;
   border-radius: 200px;
   float: left;
-  margin-right: 1em;
+  margin: 1em;
 }
 /* line 394, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-title {
