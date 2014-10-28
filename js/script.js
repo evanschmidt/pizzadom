@@ -30,7 +30,7 @@ Drupal.behaviors.my_custom_behavior = {
         anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
         navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
         verticalCentered: true,
-        paddingTop: '18em',
+        paddingTop: '20em',
         resize : false,
         slidesNavigation: false,
         slidesNavPosition: 'top',
