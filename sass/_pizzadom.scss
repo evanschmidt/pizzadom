@@ -203,7 +203,8 @@
 }
 .our-team {
   color: $red;
-  width: 70%;
+    margin: auto;
+    width: 80% !important;
   .views-field-field-team-photo {
     text-align: center;
   }
