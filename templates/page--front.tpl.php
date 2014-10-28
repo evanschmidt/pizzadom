@@ -76,9 +76,8 @@
 
       </header>
     <?php endif; ?>
-<div id="fullpage">
     <div id="main">
-
+<div id="fullpage">
       <div id="content" class="column" role="main">
         <?php print render($page['highlighted']); ?>
         <?php print $breadcrumb; ?>
@@ -97,7 +96,7 @@
         <?php print render($page['content_fullpage']); ?>
         <?php print $feed_icons; ?>
       </div>
-
+</div>
       <?php
         // Render the sidebars to see if there's anything in them.
         $sidebar_first  = render($page['sidebar_first']);
@@ -115,6 +114,5 @@
 
     <?php print render($page['footer']); ?>
 
-  </div>
 </div>
 <?php print render($page['bottom']); ?>
