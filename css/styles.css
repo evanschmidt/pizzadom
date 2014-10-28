@@ -1992,7 +1992,6 @@ tr.selected td {
 
 /* line 19, ../sass/_pizzadom.scss */
 #header {
-  height: 16.8em;
   position: relative;
   text-align: center;
   z-index: 99;
@@ -2001,6 +2000,7 @@ tr.selected td {
 /* line 25, ../sass/_pizzadom.scss */
 .header__region {
   background: none repeat scroll 0 0 #FFFFFF;
+  height: 16.8em;
   clear: both;
   display: block;
   left: 0;
