@@ -2232,9 +2232,9 @@ tr.selected td {
   background: url("/sites/default/files/images/our-story.png") no-repeat scroll top center transparent;
   height: 349px;
   width: 100%;
-  padding-top: 4em;
+  padding-top: 6em;
   position: relative;
-  top: -4em;
+  top: -6em;
 }
 
 /* line 208, ../sass/_pizzadom.scss */
