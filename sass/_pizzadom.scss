@@ -379,6 +379,12 @@ strong, em {
     width: 95%;
   }
 }
+
+//press releases
+.view-press-releases {
+  margin: auto;
+  width: 80%;
+}
 // responsive grid layout
 .views-responsive-grid {
   @include zen-grid-item-base();
