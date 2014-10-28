@@ -187,10 +187,13 @@
     position: relative;
     z-index: 1;
   }
+  .view-page-blocks {
+    background: url("/sites/default/files/images/our-story.png");
+  }
   img {
     position: absolute;
     top: 20em;
- //   left: 40px;
+    left: 40px;
   }
 }
 
