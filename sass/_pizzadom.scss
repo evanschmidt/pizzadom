@@ -236,7 +236,10 @@
   color: $white;
   text-align: center;
   h2 {
-    color: $white;
+    color: $white !important;
+  }
+  .title-stripe {
+    background-color: $white;
   }
   .view-our-farmers {
     margin: auto;
