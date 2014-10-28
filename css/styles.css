@@ -2421,10 +2421,9 @@ strong, em {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
   border-radius: 200px;
-  padding: 1em;
 }
 
-/* line 372, ../sass/_pizzadom.scss */
+/* line 371, ../sass/_pizzadom.scss */
 .views-responsive-grid {
   padding-left: 10px;
   padding-right: 10px;
@@ -2444,24 +2443,24 @@ strong, em {
   clear: both;
 }
 
-/* line 376, ../sass/_pizzadom.scss */
+/* line 375, ../sass/_pizzadom.scss */
 .views-responsive-grid .views-row {
   clear: left;
 }
 
-/* line 379, ../sass/_pizzadom.scss */
+/* line 378, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 382, ../sass/_pizzadom.scss */
+/* line 381, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 .views-column-1 {
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
 }
-/* line 385, ../sass/_pizzadom.scss */
+/* line 384, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 .views-column-2 {
   float: left;
   width: 50%;
@@ -2469,26 +2468,26 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 389, ../sass/_pizzadom.scss */
+/* line 388, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 392, ../sass/_pizzadom.scss */
+/* line 391, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-1 {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
   margin-right: -33.33333%;
 }
-/* line 395, ../sass/_pizzadom.scss */
+/* line 394, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-2 {
   float: left;
   width: 33.33333%;
   margin-left: 33.33333%;
   margin-right: -66.66667%;
 }
-/* line 398, ../sass/_pizzadom.scss */
+/* line 397, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-3 {
   float: left;
   width: 33.33333%;
@@ -2496,33 +2495,33 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 402, ../sass/_pizzadom.scss */
+/* line 401, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 406, ../sass/_pizzadom.scss */
+/* line 405, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-1 {
   float: left;
   width: 25%;
   margin-left: 0%;
   margin-right: -25%;
 }
-/* line 409, ../sass/_pizzadom.scss */
+/* line 408, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-2 {
   float: left;
   width: 25%;
   margin-left: 25%;
   margin-right: -50%;
 }
-/* line 412, ../sass/_pizzadom.scss */
+/* line 411, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-3 {
   float: left;
   width: 25%;
   margin-left: 50%;
   margin-right: -75%;
 }
-/* line 415, ../sass/_pizzadom.scss */
+/* line 414, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-4 {
   float: left;
   width: 25%;
@@ -2530,40 +2529,40 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 419, ../sass/_pizzadom.scss */
+/* line 418, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 423, ../sass/_pizzadom.scss */
+/* line 422, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-1 {
   float: left;
   width: 20%;
   margin-left: 0%;
   margin-right: -20%;
 }
-/* line 426, ../sass/_pizzadom.scss */
+/* line 425, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-2 {
   float: left;
   width: 20%;
   margin-left: 20%;
   margin-right: -40%;
 }
-/* line 429, ../sass/_pizzadom.scss */
+/* line 428, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-3 {
   float: left;
   width: 20%;
   margin-left: 40%;
   margin-right: -60%;
 }
-/* line 432, ../sass/_pizzadom.scss */
+/* line 431, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-4 {
   float: left;
   width: 20%;
   margin-left: 60%;
   margin-right: -80%;
 }
-/* line 435, ../sass/_pizzadom.scss */
+/* line 434, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-5 {
   float: left;
   width: 20%;
