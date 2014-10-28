@@ -32,10 +32,8 @@ Drupal.behaviors.my_custom_behavior = {
         verticalCentered: true,
         paddingTop: '20em',
         paddingBottom: '6em',
-        resize : false,
         slidesNavigation: false,
-        slidesNavPosition: 'top',
-        loopHorizontal: true,
+        resize : false
     });
  }
 
