@@ -30,7 +30,6 @@ Drupal.behaviors.my_custom_behavior = {
 
     //fullPage.js
     $('#fullpage').fullpage({
-        menu: #block-system-main-menu .menu,
         scrollingSpeed: 400,
         autoScrolling: false,
         anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
