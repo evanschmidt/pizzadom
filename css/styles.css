@@ -1985,7 +1985,7 @@ tr.selected td {
 }
 
 /* line 15, ../sass/_pizzadom.scss */
-#header, #main {
+#content {
   padding-left: 0;
   padding-right: 0;
 }
