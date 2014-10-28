@@ -356,8 +356,10 @@ strong, em {
   }
 }
 //instagram block layout
-#block-instagram-block-instagram-block,
 #block-views-instagram-block-1 {
+  .view-instagram  {
+    width: 80%;
+  }
   img {
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
