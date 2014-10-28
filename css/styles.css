@@ -2299,58 +2299,59 @@ tr.selected td {
   width: 80%;
 }
 /* line 259, ../sass/_pizzadom.scss */
+.our-farmers .view-header,
 .our-farmers .views-field-title {
   margin-bottom: 1em;
 }
 
-/* line 263, ../sass/_pizzadom.scss */
+/* line 264, ../sass/_pizzadom.scss */
 .our-contact {
   background: none no-repeat scroll 0 0 #89191c;
   color: white;
 }
-/* line 266, ../sass/_pizzadom.scss */
+/* line 267, ../sass/_pizzadom.scss */
 .our-contact h2 {
   color: white !important;
 }
-/* line 269, ../sass/_pizzadom.scss */
+/* line 270, ../sass/_pizzadom.scss */
 .our-contact .title-stripe {
   background-color: white !important;
 }
-/* line 272, ../sass/_pizzadom.scss */
+/* line 273, ../sass/_pizzadom.scss */
 .our-contact img {
   float: right;
   border-radius: 200px;
 }
-/* line 276, ../sass/_pizzadom.scss */
+/* line 277, ../sass/_pizzadom.scss */
 .our-contact p {
   width: auto;
   max-width: 100% !important;
 }
-/* line 280, ../sass/_pizzadom.scss */
+/* line 281, ../sass/_pizzadom.scss */
 .our-contact a {
   color: white;
 }
-/* line 283, ../sass/_pizzadom.scss */
+/* line 284, ../sass/_pizzadom.scss */
 .our-contact strong {
   color: white;
 }
-/* line 286, ../sass/_pizzadom.scss */
+/* line 287, ../sass/_pizzadom.scss */
 .our-contact .view-page-blocks {
   width: 80%;
   margin: auto;
 }
 
-/* line 295, ../sass/_pizzadom.scss */
+/* line 296, ../sass/_pizzadom.scss */
 strong, em {
   color: #89191c;
 }
 
-/* line 299, ../sass/_pizzadom.scss */
+/* line 300, ../sass/_pizzadom.scss */
 #block-block-1 h2, #block-block-3 h2 {
   margin: 0;
   padding: 0;
 }
-/* line 302, ../sass/_pizzadom.scss */
+/* line 303, ../sass/_pizzadom.scss */
 #block-block-1 h2 a, #block-block-3 h2 a {
   background: url("/sites/default/files/images/button.png") no-repeat scroll 0 0 transparent;
   color: #89191c;
@@ -2362,16 +2363,16 @@ strong, em {
   width: 170px;
 }
 
-/* line 314, ../sass/_pizzadom.scss */
+/* line 315, ../sass/_pizzadom.scss */
 #block-block-2 {
   position: relative;
 }
-/* line 316, ../sass/_pizzadom.scss */
+/* line 317, ../sass/_pizzadom.scss */
 #block-block-2 p {
   margin: auto;
   width: 263px;
 }
-/* line 320, ../sass/_pizzadom.scss */
+/* line 321, ../sass/_pizzadom.scss */
 #block-block-2 img {
   /*
       left: 45%;
@@ -2385,27 +2386,27 @@ strong, em {
   */
 }
 
-/* line 334, ../sass/_pizzadom.scss */
+/* line 335, ../sass/_pizzadom.scss */
 #block-block-3 strong a, #block-block-3 a.email {
   color: #89191c;
 }
 
-/* line 338, ../sass/_pizzadom.scss */
+/* line 339, ../sass/_pizzadom.scss */
 #block-block-9 {
   line-height: 1.5em;
   margin-bottom: 1em;
 }
-/* line 341, ../sass/_pizzadom.scss */
+/* line 342, ../sass/_pizzadom.scss */
 #block-block-9 p {
   margin: 0;
 }
 
-/* line 348, ../sass/_pizzadom.scss */
+/* line 349, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block, #homepage-images, #homepage-image-background {
   color: white;
   padding-top: 0 !important;
 }
-/* line 351, ../sass/_pizzadom.scss */
+/* line 352, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block .flexslider, #homepage-images .flexslider, #homepage-image-background .flexslider {
   background: none repeat scroll 0 0 transparent;
   border-left: 0 none;
@@ -2415,19 +2416,19 @@ strong, em {
   width: 100%;
   height: 100%;
 }
-/* line 360, ../sass/_pizzadom.scss */
+/* line 361, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block .view-footer, #homepage-images .view-footer, #homepage-image-background .view-footer {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
 }
 
-/* line 368, ../sass/_pizzadom.scss */
+/* line 369, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .view-instagram {
   width: 90%;
   margin: auto;
 }
-/* line 372, ../sass/_pizzadom.scss */
+/* line 373, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 img {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
@@ -2435,7 +2436,7 @@ strong, em {
   width: 95%;
 }
 
-/* line 380, ../sass/_pizzadom.scss */
+/* line 381, ../sass/_pizzadom.scss */
 .views-responsive-grid {
   padding-left: 10px;
   padding-right: 10px;
@@ -2455,24 +2456,24 @@ strong, em {
   clear: both;
 }
 
-/* line 384, ../sass/_pizzadom.scss */
+/* line 385, ../sass/_pizzadom.scss */
 .views-responsive-grid .views-row {
   clear: left;
 }
 
-/* line 387, ../sass/_pizzadom.scss */
+/* line 388, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 390, ../sass/_pizzadom.scss */
+/* line 391, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 .views-column-1 {
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
 }
-/* line 393, ../sass/_pizzadom.scss */
+/* line 394, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-2 .views-column-2 {
   float: left;
   width: 50%;
@@ -2480,26 +2481,26 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 397, ../sass/_pizzadom.scss */
+/* line 398, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 400, ../sass/_pizzadom.scss */
+/* line 401, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-1 {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
   margin-right: -33.33333%;
 }
-/* line 403, ../sass/_pizzadom.scss */
+/* line 404, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-2 {
   float: left;
   width: 33.33333%;
   margin-left: 33.33333%;
   margin-right: -66.66667%;
 }
-/* line 406, ../sass/_pizzadom.scss */
+/* line 407, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-3 .views-column-3 {
   float: left;
   width: 33.33333%;
@@ -2507,33 +2508,33 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 410, ../sass/_pizzadom.scss */
+/* line 411, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 414, ../sass/_pizzadom.scss */
+/* line 415, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-1 {
   float: left;
   width: 25%;
   margin-left: 0%;
   margin-right: -25%;
 }
-/* line 417, ../sass/_pizzadom.scss */
+/* line 418, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-2 {
   float: left;
   width: 25%;
   margin-left: 25%;
   margin-right: -50%;
 }
-/* line 420, ../sass/_pizzadom.scss */
+/* line 421, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-3 {
   float: left;
   width: 25%;
   margin-left: 50%;
   margin-right: -75%;
 }
-/* line 423, ../sass/_pizzadom.scss */
+/* line 424, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-4 .views-column-4 {
   float: left;
   width: 25%;
@@ -2541,40 +2542,40 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 427, ../sass/_pizzadom.scss */
+/* line 428, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 431, ../sass/_pizzadom.scss */
+/* line 432, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-1 {
   float: left;
   width: 20%;
   margin-left: 0%;
   margin-right: -20%;
 }
-/* line 434, ../sass/_pizzadom.scss */
+/* line 435, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-2 {
   float: left;
   width: 20%;
   margin-left: 20%;
   margin-right: -40%;
 }
-/* line 437, ../sass/_pizzadom.scss */
+/* line 438, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-3 {
   float: left;
   width: 20%;
   margin-left: 40%;
   margin-right: -60%;
 }
-/* line 440, ../sass/_pizzadom.scss */
+/* line 441, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-4 {
   float: left;
   width: 20%;
   margin-left: 60%;
   margin-right: -80%;
 }
-/* line 443, ../sass/_pizzadom.scss */
+/* line 444, ../sass/_pizzadom.scss */
 .views-responsive-grid.views-columns-5 .views-column-5 {
   float: left;
   width: 20%;
