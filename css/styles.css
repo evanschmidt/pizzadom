@@ -2470,12 +2470,12 @@ strong, em {
   font-style: italic;
 }
 /* line 416, ../sass/_pizzadom.scss */
-.view-press-releases hr {
-  border: 0.5em solid;
+.view-press-releases span {
+  background: #89191c;
   clear: both;
   color: #89191c;
-  height: 0;
-  width: 80%;
+  height: 1px;
+  width: 95%;
 }
 
 /* line 425, ../sass/_pizzadom.scss */
