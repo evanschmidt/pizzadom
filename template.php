@@ -141,28 +141,7 @@ function pizzadom_preprocess_block(&$variables, $hook) {
 // */
 function pizzadom_menu_link(array $variables) {
   $element = $variables['element'];
-  $sub_menu = '';
-  if ($element['#below']) {
-    $sub_menu = drupal_render($element['#below']);
-  }
  
- /*
- // This is where you check the menu name and assign the class.
-  if($menuname == 'main-menu') {
-    $element['#localized_options']['attributes']['data-menuanchor'][] = 'section-';
-    $element['#localized_options']['attributes']['class'][] = '$menuname';
- }
-*/
-
-/*
-  $name_id = strtolower(strip_tags($element['#title']));
-// remove colons and anything past colons
-  if (strpos($name_id, ':')) $name_id = substr ($name_id, 0, strpos($name_id, ':'));
-//Preserve alphanumerics, everything else goes away
-  $pattern = '/[^a-z]+/ ';
-  $name_id = preg_replace($pattern, '', $name_id);
-  $element['#attributes']['data-menuanchor'][] = 'menu-' . $element['#original_link']['mlid'] . ' '.$name_id;
-*/
   if (isset($element['#localized_options']['fragment'])) {
     $element['#attributes']['data-menuanchor'][] = $element['#localized_options']['fragment'];
   }
