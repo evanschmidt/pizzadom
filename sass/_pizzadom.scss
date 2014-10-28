@@ -203,8 +203,10 @@
 }
 .our-team {
   color: $red;
-  margin: auto;
-  width: 80% !important;
+  .view-our-farmers {    
+    margin: auto;
+    width: 80%;
+  }
   .views-field-field-team-photo {
     text-align: center;
   }
@@ -233,8 +235,10 @@
 .our-farmers {
   color: $white;
   text-align: center;
-  margin: auto;
-  width: 80% !important;
+  .view-our-farmers {
+    margin: auto;
+    width: 80%;    
+  }
 }
 .our-contact {
   background: none no-repeat scroll 0 0 $red;
