@@ -72,7 +72,7 @@
       text-transform: uppercase;
     }
     a.active, a:hover {
-      //color: #FFFFFF;
+      color: $yellow;
     }
     li {
       padding: 0;
@@ -335,6 +335,9 @@ strong, em {
     text-align: center;
     width: 170px;
     }  
+    a:hover {
+      color: $white;
+    }
   }
 }
 #block-block-1 {
