@@ -249,31 +249,20 @@
 .our-contact {
   background: none no-repeat scroll 0 0 $red;
   color: $white;
-  h2, h3, a, p {
-    color: $white;
+  h2 {
+    color: $white !important;
+  }
+  .title-stripe {
+    background-color: $white !important;
   }
   p {
     width: auto;
   }
-  #main {
-    h2 {
-      border-bottom: none;
-      border-top: none;
-      color: $white;
-      margin: 1em auto;
-      text-align: left;
-      text-transform: uppercase;
-      width: auto;
-      a {
-        color: $white;
-      }
-    }    
-  p {
-    max-width: 100%;
+  a {
+    color: $white;
   }
 }
 
-}
 
 .block {
 }
