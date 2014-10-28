@@ -2001,7 +2001,6 @@ tr.selected td {
 /* line 25, ../sass/_pizzadom.scss */
 .header__region {
   background: none repeat scroll 0 0 #FFFFFF;
-  height: 16.8em;
   clear: both;
   display: block;
   left: 0;
@@ -2020,7 +2019,6 @@ tr.selected td {
 
 /* line 41, ../sass/_pizzadom.scss */
 .region-navigation {
-  height: 252px;
   left: 0;
   position: fixed;
   top: 0;
@@ -2059,7 +2057,7 @@ tr.selected td {
 }
 /* line 66, ../sass/_pizzadom.scss */
 #block-system-main-menu .menu a {
-  color: #89191c;
+  color: #780016;
   display: block;
   font-size: 1em;
   font-weight: bold;
@@ -2116,7 +2114,7 @@ tr.selected td {
 
 /* line 106, ../sass/_pizzadom.scss */
 #fullpage #content h2 {
-  color: #89191c;
+  color: #780016;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
@@ -2125,7 +2123,7 @@ tr.selected td {
 }
 /* line 115, ../sass/_pizzadom.scss */
 #fullpage #content h2 a {
-  color: #89191c;
+  color: #780016;
 }
 /* line 119, ../sass/_pizzadom.scss */
 #fullpage #content h2:before {
@@ -2137,7 +2135,7 @@ tr.selected td {
 }
 /* line 125, ../sass/_pizzadom.scss */
 #fullpage #content .title-stripe {
-  background-color: #89191c;
+  background-color: #780016;
   border-color: black;
   height: 1px;
   position: relative;
@@ -2188,19 +2186,19 @@ tr.selected td {
 
 /* line 171, ../sass/_pizzadom.scss */
 .hi-neighbor {
-  color: #89191c;
+  color: #780016;
   text-align: center;
 }
 
 /* line 175, ../sass/_pizzadom.scss */
 .our-story {
-  color: #89191c;
+  color: #780016;
   text-align: center;
   position: relative;
 }
 /* line 179, ../sass/_pizzadom.scss */
 .our-story a {
-  color: #89191c;
+  color: #780016;
 }
 /* line 182, ../sass/_pizzadom.scss */
 .our-story h2 {
@@ -2221,12 +2219,12 @@ tr.selected td {
 
 /* line 197, ../sass/_pizzadom.scss */
 .how-we-roll {
-  color: #89191c;
+  color: #780016;
   text-align: center;
 }
 /* line 201, ../sass/_pizzadom.scss */
 .how-we-roll a {
-  color: #89191c;
+  color: #780016;
 }
 /* line 204, ../sass/_pizzadom.scss */
 .how-we-roll h2 {
@@ -2242,7 +2240,7 @@ tr.selected td {
 /* line 213, ../sass/_pizzadom.scss */
 .our-videos {
   text-align: center;
-  color: #89191c;
+  color: #780016;
   font-weight: bold;
 }
 /* line 217, ../sass/_pizzadom.scss */
@@ -2259,7 +2257,7 @@ tr.selected td {
 
 /* line 227, ../sass/_pizzadom.scss */
 .our-team {
-  color: #89191c;
+  color: #780016;
 }
 /* line 229, ../sass/_pizzadom.scss */
 .our-team .view-our-team {
@@ -2272,14 +2270,14 @@ tr.selected td {
 }
 /* line 236, ../sass/_pizzadom.scss */
 .our-team .views-field-title {
-  border-right: 1px solid #89191c;
+  border-right: 1px solid #780016;
   text-transform: uppercase;
   padding: 0 1em;
   font-weight: bold;
 }
 /* line 242, ../sass/_pizzadom.scss */
 .our-team .views-field-field-team-bio {
-  border-right: 1px solid #89191c;
+  border-right: 1px solid #780016;
   padding: 0 1em;
 }
 /* line 245, ../sass/_pizzadom.scss */
@@ -2324,7 +2322,7 @@ tr.selected td {
 
 /* line 278, ../sass/_pizzadom.scss */
 .our-contact {
-  background: none no-repeat scroll 0 0 #89191c;
+  background: none no-repeat scroll 0 0 #780016;
   color: white;
 }
 /* line 281, ../sass/_pizzadom.scss */
@@ -2361,7 +2359,7 @@ tr.selected td {
 
 /* line 310, ../sass/_pizzadom.scss */
 strong, em {
-  color: #89191c;
+  color: #780016;
 }
 
 /* line 314, ../sass/_pizzadom.scss */
@@ -2372,7 +2370,7 @@ strong, em {
 /* line 317, ../sass/_pizzadom.scss */
 #block-block-1 h2 a, #block-block-3 h2 a {
   background: url("/sites/default/files/images/button.png") no-repeat scroll 0 0 transparent;
-  color: #89191c;
+  color: #780016;
   display: block;
   height: 73px;
   margin: auto;
@@ -2406,7 +2404,7 @@ strong, em {
 
 /* line 349, ../sass/_pizzadom.scss */
 #block-block-3 strong a, #block-block-3 a.email {
-  color: #89191c;
+  color: #780016;
 }
 
 /* line 353, ../sass/_pizzadom.scss */
@@ -2469,7 +2467,7 @@ strong, em {
 }
 /* line 406, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-title {
-  color: #89191c;
+  color: #780016;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 2em;
@@ -2480,15 +2478,15 @@ strong, em {
 }
 /* line 422, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-field-press-link a {
-  color: #89191c;
+  color: #780016;
   text-decoration: none;
   font-style: italic;
 }
 /* line 428, ../sass/_pizzadom.scss */
 .view-press-releases .press-line {
-  background: #89191c;
+  background: #780016;
   clear: both;
-  color: #89191c;
+  color: #780016;
   height: 1px;
   margin: auto;
   width: 90%;
