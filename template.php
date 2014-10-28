@@ -141,6 +141,10 @@ function pizzadom_preprocess_block(&$variables, $hook) {
 // */
 function pizzadom_menu_link(array $variables) {
   $element = $variables['element'];
+  $sub_menu = '';
+  if ($element['#below']) {
+    $sub_menu = drupal_render($element['#below']);
+  }
  
   if (isset($element['#localized_options']['fragment'])) {
     $element['#attributes']['data-menuanchor'][] = $element['#localized_options']['fragment'];
