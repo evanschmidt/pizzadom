@@ -9,7 +9,6 @@
 ?>
 
 <div id="page">
-  <div id="fullpage">
     <?php if ($page['header']): ?>
       <header class="header" id="header" role="banner">
 
@@ -78,7 +77,7 @@
 
       </header>
     <?php endif; ?>
-
+  <div id="fullpage">
     <div id="main">
 
       <div id="content" class="column" role="main">
