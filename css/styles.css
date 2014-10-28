@@ -1979,15 +1979,15 @@ tr.selected td {
  * Adds styles for Pizza Domenica
  *
  */
-/* line 8, ../sass/_pizzadom.scss */
-#page {
-  border: 1px dotted #89191c;
-  padding: 0;
+/* line 12, ../sass/_pizzadom.scss */
+#page-title {
+  display: none;
 }
 
 /* line 15, ../sass/_pizzadom.scss */
-#page-title {
-  display: none;
+#header, #main {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* line 19, ../sass/_pizzadom.scss */
