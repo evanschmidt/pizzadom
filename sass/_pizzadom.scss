@@ -214,6 +214,11 @@
   text-align: center;
   color: $red;
   font-weight: bold;
+  img {
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+  }
 }
 .our-team {
   color: $red;
