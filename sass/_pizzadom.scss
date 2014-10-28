@@ -390,6 +390,27 @@ strong, em {
     border-radius: 200px;
     float: left;
   }
+  .views-field-title {
+    color: $red;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .views-field-field-press-source {
+    font-style: italic;
+  }
+  .views-field-field-press-source {
+
+  }
+  .views-field-field-press-description {
+
+  }
+  .views-field-field-press-link {
+    a {
+      color: $red;
+      text-decoration: none;
+      font-style: italic;
+    }
+  }
 }
 // responsive grid layout
 .views-responsive-grid {
