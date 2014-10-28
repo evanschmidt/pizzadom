@@ -71,7 +71,8 @@
       padding: 0 0.75em 0 0;
       text-transform: uppercase;
     }
-    a.active, a:hover {
+    a.active {}
+    a:hover {
       color: $yellow;
     }
     li {
@@ -341,11 +342,11 @@ strong, em {
     }
   }
 }
-#block-block-1 {
-  text-align: right;
+#block-block-1 h2 {
+  float: right;
 }
-#block-block-3 {
-  text-align: left;
+#block-block-3 h2 {
+  float: left;
 }
 #block-block-2 {
   position: relative;
