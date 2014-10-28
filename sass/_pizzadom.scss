@@ -338,6 +338,7 @@ strong, em {
 
 #block-views-homepage-images-block, #homepage-images, #homepage-image-background {
   color: $white;
+  padding-top: 0 !important;
   .flexslider {
     background: none repeat scroll 0 0 transparent;
     border-left: 0 none;
