@@ -22,8 +22,7 @@ Drupal.behaviors.my_custom_behavior = {
     $("#block-views-page-blocks-block-2").backstretch("/sites/default/files/images/page/bg.png");
     $("#block-views-page-blocks-block-3").backstretch("/sites/default/files/images/page/our-dough.jpg");
     $("#block-views-our-farmers-block-1").backstretch("/sites/default/files/images/page/field.jpg");
-  }
-
+  
     //fullPage.js
     $('#fullpage').fullpage({
         scrollingSpeed: 400,
@@ -39,6 +38,8 @@ Drupal.behaviors.my_custom_behavior = {
         slidesNavPosition: 'bottom',
         loopHorizontal: true,
     });
+ }
+
  /*
     $('#fullpage').fullpage({
         //Navigation
