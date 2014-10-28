@@ -255,9 +255,13 @@
   .title-stripe {
     background-color: $white !important;
   }
+  img {
+    float: left;
+    border-radius: 200px;
+  }
   p {
     width: auto;
-    max-width: 100%;
+    max-width: 100%!important;
   }
   a {
     color: $white;
