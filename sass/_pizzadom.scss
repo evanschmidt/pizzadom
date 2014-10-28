@@ -359,11 +359,13 @@ strong, em {
 #block-views-instagram-block-1 {
   .view-instagram  {
     width: 80%;
+    margin: auto;
   }
   img {
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
     border-radius: 200px;  
+    padding: 1em;
   }
 }
 // responsive grid layout
