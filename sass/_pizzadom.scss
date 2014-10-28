@@ -107,7 +107,7 @@
     //border-bottom: 1px solid $red;
     //border-top: 1px solid $red;
     color: $red;
-    margin: 0.5em auto;
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
     font-size: 2.25em;
@@ -127,7 +127,7 @@
     border-color: $black;
     height: 1px;
     position: relative;
-    margin: 0.5em auto;
+    margin: 0.5em auto 1.5em auto;
     width: 111px;
   }
 .down-arrow {
