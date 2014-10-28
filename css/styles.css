@@ -2232,7 +2232,7 @@ tr.selected td {
 }
 /* line 206, ../sass/_pizzadom.scss */
 .our-team .views-field-field-team-photo {
-  margin: auto;
+  text-align: center;
 }
 /* line 209, ../sass/_pizzadom.scss */
 .our-team .views-field-title {
