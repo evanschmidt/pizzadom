@@ -38,6 +38,7 @@ Drupal.behaviors.my_custom_behavior = {
         verticalCentered: true,
         paddingTop: '20em',
         paddingBottom: '6em',
+        fixedElements: '#header',
         resize : false
     });
  }
