@@ -127,8 +127,11 @@
     border-color: $black;
     height: 1px;
     position: relative;
-    margin: 0.5em auto 1.5em auto;
+    margin: 0.5em auto;
     width: 111px;
+  }
+  .title-stripe.below {
+    margin-bottom: 1.5em;
   }
 .down-arrow {
   margin: 2em auto;
