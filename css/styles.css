@@ -2421,7 +2421,7 @@ strong, em {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
   border-radius: 200px;
-  size: 95%;
+  width: 95%;
 }
 
 /* line 372, ../sass/_pizzadom.scss */
