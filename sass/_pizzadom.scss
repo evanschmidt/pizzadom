@@ -256,7 +256,9 @@
     margin: auto;
     width: 80%;    
   }
-  .view-header,
+  .view-header {
+    margin-bottom: 3em;
+  }
   .views-field-title {
     margin-bottom: 1em;
   }
