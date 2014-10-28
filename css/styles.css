@@ -2212,7 +2212,7 @@ tr.selected td {
 }
 /* line 190, ../sass/_pizzadom.scss */
 .our-story .fp-tableCell {
-  background: url("/sites/default/files/images/our-story.png");
+  background: url("/sites/default/files/images/our-story.png") no-repeat scroll top center transparent;
 }
 /* line 193, ../sass/_pizzadom.scss */
 .our-story img {
