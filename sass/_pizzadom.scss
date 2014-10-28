@@ -384,6 +384,12 @@ strong, em {
 .view-press-releases {
   margin: auto;
   width: 80%;
+  img {
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    float: left;
+  }
 }
 // responsive grid layout
 .views-responsive-grid {
