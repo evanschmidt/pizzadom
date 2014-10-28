@@ -414,10 +414,11 @@ strong, em {
     }
   }
   hr {
+    border: 0.5px solid;
     clear: both;
-    width: 80%;
     color: $red;
-    height: 1px;
+    height: 0;
+    width: 80%;
   }  
 }
 // responsive grid layout
