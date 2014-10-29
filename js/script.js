@@ -107,10 +107,12 @@ Drupal.behaviors.my_custom_behavior = {
       var colorboxResize = function(resize) {
         var width = "90%";
         var height = "90%";
+        var top = "20";
         if($(window).width() > 960) { width = "860" }
         if($(window).height() > 700) { height = "630" }
         $.colorbox.settings.height = height;
         $.colorbox.settings.width = width;
+        $.colorbox.settings.top = top;
         //if window is resized while lightbox open
         if(resize) {
           $.colorbox.resize({
