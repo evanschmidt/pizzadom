@@ -94,12 +94,6 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
-$.colorbox.settings.onClosed = function() {
-        reloadPage();
-      }
-$.function reloadPage() {
-    location.reload(true); 
-}
 /*
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
