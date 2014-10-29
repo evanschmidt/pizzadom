@@ -94,9 +94,10 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
-$(document).bind('cbox_closed', function(){
-  location.reload(true);
-});
+    //reload page after colorbox closes
+    $(document).bind('cbox_closed', function(){
+      location.reload(true);
+    });
 
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
