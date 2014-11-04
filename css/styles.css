@@ -2007,7 +2007,7 @@ tr.selected td {
 
 /* line 22, ../sass/_pizzadom.scss */
 #header {
-  position: fixed;
+  position: relative;
   text-align: center;
   z-index: 99;
 }
