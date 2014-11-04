@@ -19,9 +19,9 @@ Drupal.behaviors.my_custom_behavior = {
 
   // backstretch
   if(jQuery('body.front').length > 0){
-    $("#block-views-page-blocks-block-2").backstretch("/sites/default/files/images/page/bg.png");
-    $("#block-views-page-blocks-block-3").backstretch("/sites/default/files/images/page/our-dough.jpg");
-    $("#block-views-our-farmers-block-1").backstretch("/sites/default/files/images/page/field.jpg");
+    //$("#block-views-page-blocks-block-2").backstretch("/sites/default/files/images/page/bg.png");
+    //$("#block-views-page-blocks-block-3").backstretch("/sites/default/files/images/page/our-dough.jpg");
+    //$("#block-views-our-farmers-block-1").backstretch("/sites/default/files/images/page/field.jpg");
     $("#block-block-11").backstretch([
         "/sites/default/files/images/homepage/bite.jpg"
       , "/sites/default/files/images/homepage/drink.jpg"
