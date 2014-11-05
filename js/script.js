@@ -130,10 +130,9 @@ Drupal.behaviors.my_custom_behavior = {
     var $element = $.colorbox.element();
     console.log($element);
 
-    $.colorbox.remove();
-    $.colorbox();
+    $('a.colorbox-inline', context).colorbox.remove();
 
-    //$('a.colorbox-inline', context).colorbox();
+    $('a.colorbox-inline', context).colorbox();
 
       }
     };
