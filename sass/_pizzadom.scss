@@ -316,6 +316,12 @@
   strong {
     color: $white;
   }
+  ul {
+    list-style: none;
+    li {
+      list-style: none;      
+    }
+  }
   .view-page-blocks {
     width: 80%;
     margin: auto;
