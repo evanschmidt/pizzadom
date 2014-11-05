@@ -2174,7 +2174,7 @@ tr.selected td {
 /* line 145, ../sass/_pizzadom.scss */
 #fullpage #content p {
   letter-spacing: 2px;
-  font-size: 1.25em;
+  font-size: 1.125em;
   margin-left: auto;
   margin-right: auto;
   max-width: 721px;
@@ -2314,7 +2314,7 @@ tr.selected td {
 }
 /* line 258, ../sass/_pizzadom.scss */
 .our-team .views-field-field-team-bio p {
-  font-size: 0.75em;
+  font-size: 1em !important;
   letter-spacing: 1px !important;
 }
 /* line 264, ../sass/_pizzadom.scss */
