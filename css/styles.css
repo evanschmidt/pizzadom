@@ -2014,6 +2014,7 @@ tr.selected td {
 
 /* line 28, ../sass/_pizzadom.scss */
 .header__region {
+  background: none repeat scroll 0 0 #FFFFFF;
   height: 16.8em;
   clear: both;
   display: block;
@@ -2033,7 +2034,6 @@ tr.selected td {
 
 /* line 44, ../sass/_pizzadom.scss */
 .region-navigation {
-  background: none repeat scroll 0 0 #ffffff;
   left: 0;
   position: fixed;
   top: 0;
