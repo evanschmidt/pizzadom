@@ -17,7 +17,7 @@
   <?php if ($title): ?>
   <?php	$title = str_replace("-", " ", $title); ?>
   	<div class="title-stripe"></div>
-    &bull;<h2<?php print $title_attributes; ?>><?php print $title; ?></h2>&bull;
+    <h2<?php print $title_attributes; ?>><span>&bull;</span><?php print $title; ?><span>&bull;</span></h2>&bull;
   	<div class="title-stripe below"></div>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
