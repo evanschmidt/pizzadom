@@ -2167,9 +2167,9 @@ tr.selected td {
 }
 /* line 140, ../sass/_pizzadom.scss */
 #fullpage #content .down-arrow {
-  margin: 2em auto;
+  margin: 0 auto;
   position: relative;
-  top: -2em;
+  top: -3em;
 }
 /* line 145, ../sass/_pizzadom.scss */
 #fullpage #content p {
