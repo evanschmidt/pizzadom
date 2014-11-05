@@ -127,7 +127,7 @@ Drupal.behaviors.my_custom_behavior = {
       });
 */
     $('.colorbox', context).colorbox.remove();
-//    $('.colorbox', context).colorbox();
+    $('.colorbox', context).colorbox();
       }
     };
 })(jQuery, Drupal, this, this.document);
