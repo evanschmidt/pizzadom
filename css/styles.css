@@ -2241,12 +2241,12 @@ tr.selected td {
 }
 /* line 200, ../sass/_pizzadom.scss */
 .our-story .our-story-bg {
-  background: url("/sites/default/files/images/our-story.png") no-repeat scroll top center transparent;
+  background: url("/sites/default/files/images/our-story.png") no-repeat scroll top center rgba(0, 0, 0, 0.5);
   height: 349px;
   width: 100%;
-  padding-top: 6em;
+  padding-top: 10em;
   position: relative;
-  top: -6em;
+  top: -10em;
 }
 
 /* line 210, ../sass/_pizzadom.scss */
