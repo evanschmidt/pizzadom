@@ -113,13 +113,13 @@ audio:not([controls]) {
 html {
   font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
   /* 1 */
-  font-size: 100%;
+  font-size: 112.5%;
   /* 3 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  line-height: 1.5em;
+  line-height: 1.33333em;
 }
 
 /* Remove default margin. */
@@ -183,13 +183,13 @@ a:hover {
 /* line 174, ../sass/_normalize.scss */
 p,
 pre {
-  margin: 0.75em 0;
+  margin: 0.66667em 0;
 }
 
 /* line 178, ../sass/_normalize.scss */
 blockquote {
   /* Also indent the quote on both sides. */
-  margin: 1.5em 30px;
+  margin: 1.33333em 30px;
 }
 
 /**
@@ -200,50 +200,50 @@ blockquote {
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.33333em;
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
+  margin-top: 0.66667em;
+  margin-bottom: 0.66667em;
 }
 
 /* line 195, ../sass/_normalize.scss */
 h2 {
   font-size: 1.5em;
-  line-height: 2em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  line-height: 1.77778em;
+  margin-top: 0.88889em;
+  margin-bottom: 0.88889em;
 }
 
 /* line 200, ../sass/_normalize.scss */
 h3 {
   font-size: 1.17em;
-  line-height: 1.28205em;
-  margin-top: 1.28205em;
-  margin-bottom: 1.28205em;
+  line-height: 2.2792em;
+  margin-top: 1.1396em;
+  margin-bottom: 1.1396em;
 }
 
 /* line 205, ../sass/_normalize.scss */
 h4 {
   font-size: 1em;
-  line-height: 1.5em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  line-height: 1.33333em;
+  margin-top: 1.33333em;
+  margin-bottom: 1.33333em;
 }
 
 /* line 210, ../sass/_normalize.scss */
 h5 {
   font-size: 0.83em;
-  line-height: 1.80723em;
-  margin-top: 1.80723em;
-  margin-bottom: 1.80723em;
+  line-height: 1.60643em;
+  margin-top: 1.60643em;
+  margin-bottom: 1.60643em;
 }
 
 /* line 215, ../sass/_normalize.scss */
 h6 {
   font-size: 0.67em;
-  line-height: 2.23881em;
-  margin-top: 2.23881em;
-  margin-bottom: 2.23881em;
+  line-height: 1.99005em;
+  margin-top: 1.99005em;
+  margin-bottom: 1.99005em;
 }
 
 /* Address styling not present in IE 8/9, Safari 5, and Chrome. */
@@ -274,7 +274,7 @@ hr {
   height: 0;
   border: 1px solid #666;
   padding-bottom: -1px;
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
 }
 
 /* Address styling not present in IE 8/9. */
@@ -294,7 +294,7 @@ tt,
 var {
   font-family: "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.33333em;
 }
 
 /* Improve readability of pre-formatted text in all browsers. */
@@ -344,7 +344,7 @@ menu,
 ol,
 ul {
   /* Address margins set differently in IE 6/7. */
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
 }
 
 /* line 315, ../sass/_normalize.scss */
@@ -408,18 +408,18 @@ fieldset {
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
   border-color: #c0c0c0;
-  border-top-width: 0.0625em;
+  border-top-width: 0.05556em;
   border-top-style: solid;
-  padding-top: 0.4625em;
-  border-bottom-width: 0.0625em;
+  padding-top: 0.41111em;
+  border-bottom-width: 0.05556em;
   border-bottom-style: solid;
-  padding-bottom: 0.9125em;
-  border-left-width: 0.0625em;
+  padding-bottom: 0.81111em;
+  border-left-width: 0.05556em;
   border-left-style: solid;
-  padding-left: 0.9125em;
-  border-right-width: 0.0625em;
+  padding-left: 0.81111em;
+  border-right-width: 0.05556em;
   border-right-style: solid;
-  padding-right: 0.9125em;
+  padding-right: 0.81111em;
 }
 
 /**
@@ -592,8 +592,8 @@ table {
   /* Prevent cramped-looking tables */
   /* width: 100%; */
   /* Add vertical rhythm margins. */
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1.33333em;
+  margin-bottom: 1.33333em;
 }
 
 /* Layout rules */
@@ -1172,7 +1172,7 @@ table {
 .header__site-name {
   margin: 0;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.33333em;
 }
 
 /* The link around the name of the website. */
@@ -1269,7 +1269,7 @@ table {
  */
 /* line 197, ../sass/components/_misc.scss */
 .messages, .messages--status, .messages--warning, .messages--error {
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
   padding: 10px 10px 10px 50px;
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAD6UlEQVR42s2WX0xbVRzH3YwmC4k+GF/0ZS/S267/bmnX9nL7bwstZlnbjTDYyoC5GCbB0ZW5pdJCe6swbLFA6bpWIGuRMWVjKGP+21QW3SZBSAjGh4XEaTZTH82Cm/3ztS2xs7mw4KLRk3xyzj33/H6fe5Pz7zEA/yr/vUDukj9FH6drqTaqT8EoPs/UV+nX6TD1BlUh9AqLHlmgPKLcRHmoCOWmElK/FOKTYpS8UwLJkASiUyLI3pKhlClN0g46qj+qL/pbArlbrlO1q25JeiSgR2iYJ8ywXLSg/qP6LNl2ro8+Q4MMkKCd9K2t3q3KdQnkXXIF5aISkgEJzONm1F2qW52pDJN1MI2bUBIuAdVOJWSMTPNQgX6/vkjVpvpREpag6oMqWCYta1IzbsHh9ga0RJtzY8URMdRO9U/KSuWmNQUqh2pY3CtG+fvlqJyofMAFNrZAE+7e/RWR4X4cD9tgOGsA2U2CdtMDqwqyMyIzQ5KKqAKmcyaYxkzYd3YvjGNGFtXRPRj58DT+LOemRrFnrBLyITmUDmUyO/NYgu2d26ukHVJo3tXAMGpAs+cQmh0NeClan30uwN7TgnQ6nRd4r3thOGOAJqYB2UVC79AfZAnKHGUxQa8A2tNaNLW/jKvXv8Dyb8s4yryKA4O10A3roIvpUB+swTdz1/LJZ27PQBvT5lBH1RD4BChzlQ2wBNtc22aE/ULQgzRCl4P5BPcT93GMOYz9wb2QhCRgAq35d8u/L2PXe7tADVGgBlcQ+AXQtmlvsP/gzbJZvp8PMkJCFBYh8m0knyiVSsHe0YIGZz1+/uVOvt8z7QGvnwf+ST5EIRHIUyR4fh50rbp5lsDcYR4ReAXgBrng9q/Qfa0bfy035r7Ot2dvz4IX4IEIEAXwvDzscOw4zxJUd1YfEXlE4Aa4BQHMlwzSSBeI7iXvoTxWDqKPYCFsFaKmr+YVliB0JfS89DVpiuhlB9k/tSOZTuYFvq98yI7L0/MAsVWcGp0bfW61hbahwltxSeARsIKyWKesSKQSWIwvYkvvllwfx88pgOvhwthu/AzAxlVX8vz385tLbaVxwpcLZtEw0QDjsBGctzksiE4CimZFfHp++oWHbnbuUfdB0komMgHsRN1r0MWBsEmYODF5onY92/UTwcvBxuzXcN1ccHycVSn2FaPYWwzCQUDWKIt7z3utAJ5c74Hz+OLSomynY+cVfiM/xW3JiDyZpB3FuZrj4oCwE+Ad4qWMjPHjpTtL0mzMoxyZz9yM39Q7Y85Ok930icqm+k59TL2wm9l90dZv8y/8sPAigGf/iUN/Q4anM2zOsdLe+L+4VfwBVVjDs2rTYx0AAAAASUVORK5CYII=');
   background-position: 8px 8px;
@@ -1341,7 +1341,7 @@ table {
   /* IE 9 and earlier don't understand gradients. */
   list-style: none;
   border-bottom: 1px solid #bbbbbb \0/ie;
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
   padding: 0 2px;
   white-space: nowrap;
 }
@@ -1359,7 +1359,7 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__
   border-right: 0;
   border-bottom: 0;
   display: block;
-  line-height: 1.5em;
+  line-height: 1.33333em;
   text-decoration: none;
 }
 
@@ -1425,13 +1425,13 @@ a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
 .tabs-secondary {
   font-size: .9em;
   /* Collapse bottom margin of ul.primary. */
-  margin-top: -1.5em;
+  margin-top: -1.33333em;
 }
 
 /* line 351, ../sass/components/_misc.scss */
 .tabs-secondary__tab,
 .tabs-secondary__tab.is-active {
-  margin: 0.75em 3px;
+  margin: 0.66667em 3px;
 }
 
 /* line 358, ../sass/components/_misc.scss */
@@ -1553,7 +1553,7 @@ span.field-label {
 /* Block wrapper. */
 /* line 472, ../sass/components/_misc.scss */
 .block {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.33333em;
 }
 
 /**
@@ -1622,7 +1622,7 @@ span.field-label {
 /* Wrapper for the list of comments and its title. */
 /* line 551, ../sass/components/_misc.scss */
 .comments {
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
 }
 
 /* Preview of the comment before submitting new or updated comment. */
@@ -1656,7 +1656,7 @@ span.field-label {
 /* Wrapper for a form element (or group of form elements) and its label. */
 /* line 582, ../sass/components/_misc.scss */
 .form-item {
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
   /* Pack groups of checkboxes and radio buttons closer together. */
   /* Form items in a table. */
   /* Highlight the form elements that caused a form submission error. */
@@ -1738,7 +1738,7 @@ a.button {
 /* line 659, ../sass/components/_misc.scss */
 .openid-link,
 .user-link {
-  margin-top: 1.5em;
+  margin-top: 1.33333em;
 }
 
 /* line 663, ../sass/components/_misc.scss */
@@ -1750,7 +1750,7 @@ html.js #user-login-form li.openid-link,
 
 /* line 668, ../sass/components/_misc.scss */
 #user-login ul {
-  margin: 1.5em 0;
+  margin: 1.33333em 0;
 }
 
 /**
@@ -1927,7 +1927,7 @@ tr.selected td {
   #content a[href]:after {
     content: " (" attr(href) ")";
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
   }
   /* line 34, ../sass/_print.scss */
   #content a[href^="javascript:"]:after,
