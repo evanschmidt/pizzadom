@@ -223,6 +223,9 @@
     position: relative;
     z-index: 1;
   }
+  h3 {
+    letter-spacing: 2px;
+  }
 }
 .our-videos {
   text-align: center;
@@ -276,7 +279,7 @@
 .our-farmers {
   color: $white;
   text-align: center;
-  h2 {
+  h2, strong {
     color: $white !important;
   }
   .title-stripe {
