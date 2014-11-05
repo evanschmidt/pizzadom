@@ -140,7 +140,7 @@
 .down-arrow {
   margin: 2em auto;
   position: relative;
-  top: 2em;
+  top: -2em;
 }
   p {
     letter-spacing: 2px;
@@ -198,7 +198,7 @@
     z-index: 1;
   }
   .our-story-bg {
-    background: url("/sites/default/files/images/our-story.png") no-repeat scroll top center rgba(0, 0, 0, 0.5);
+    background: url("/sites/default/files/images/our-story.png") no-repeat scroll top center rgba(0, 0, 0, 0);
     height: 349px;
     width: 100%;
     padding-top: 10em;
