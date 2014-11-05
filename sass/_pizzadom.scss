@@ -120,11 +120,9 @@
       color: $red;
     }
   }
-  h2:before {
-    content: "\2022";
-  }
-  h2:after {
-    content: "\2022";
+  h2 span {
+    font-size: 1em;
+    font-weight: normal;
   }
   .title-stripe {
     background-color: $red;
