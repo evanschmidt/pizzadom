@@ -255,7 +255,8 @@
     border-right: 1px solid $red;
     padding: 0 1em;
     p {
-      margin: 0;
+      font-size: 0.75em;
+      letter-spacing: 1px !important;
     }
   }
   .views-column-last {
