@@ -128,12 +128,7 @@ Drupal.behaviors.my_custom_behavior = {
 */
     
     var $element = $.colorbox.element();
-//    alert($element.toSource());
-    var acc = [$element];
-    $.each(a, function(index, value) {
-        acc.push(index + ': ' + value);
-    });
-    alert(JSON.stringify(acc));
+    console.log($element);
 
 //    $('.colorbox', context).colorbox();
 
