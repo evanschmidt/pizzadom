@@ -130,7 +130,7 @@ Drupal.behaviors.my_custom_behavior = {
     var $element = $.colorbox.element();
     console.log($element);
 
-//    $('.colorbox', context).colorbox();
+    $('a.colorbox-inline', context).colorbox();
 
       }
     };
