@@ -94,11 +94,11 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
-/*
     //reload page after colorbox closes
     $(document).bind('cbox_closed', function(){
       location.reload(true);
     });
+/*
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
         colorboxResize();
@@ -127,12 +127,12 @@ Drupal.behaviors.my_custom_behavior = {
       });
 */
     
-    var $element = $.colorbox.element();
-    console.log($element);
+//    var $element = $.colorbox.element();
+//    console.log($element);
 
-    $('a.colorbox-inline', context).colorbox.remove();
+//    $('a.colorbox-inline', context).colorbox.remove();
 
-    $('a.colorbox-inline', context).colorbox();
+//    $('a.colorbox-inline', context).colorbox();
 
       }
     };
