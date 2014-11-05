@@ -128,7 +128,7 @@ Drupal.behaviors.my_custom_behavior = {
 */
     
     var $element = $.colorbox.element();
-    alert($element);
+    alert($element.toSource());
 
 //    $('.colorbox', context).colorbox();
 
