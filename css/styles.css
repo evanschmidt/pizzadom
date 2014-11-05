@@ -2632,14 +2632,15 @@ strong, em {
 /* line 399, ../sass/_pizzadom.scss */
 #block-block-9 p {
   margin: 0;
+  letter-spacing: 1px;
 }
 
-/* line 406, ../sass/_pizzadom.scss */
+/* line 407, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block, #homepage-images, #homepage-image-background {
   color: white;
   padding-top: 0 !important;
 }
-/* line 409, ../sass/_pizzadom.scss */
+/* line 410, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block .flexslider, #homepage-images .flexslider, #homepage-image-background .flexslider {
   background: none repeat scroll 0 0 transparent;
   border-left: 0 none;
@@ -2649,26 +2650,26 @@ strong, em {
   width: 100%;
   height: 100%;
 }
-/* line 418, ../sass/_pizzadom.scss */
+/* line 419, ../sass/_pizzadom.scss */
 #block-views-homepage-images-block .view-footer, #homepage-images .view-footer, #homepage-image-background .view-footer {
   text-align: center;
   clear: both;
   margin-bottom: 1em;
 }
 
-/* line 426, ../sass/_pizzadom.scss */
+/* line 427, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .view-instagram {
   width: 90%;
   margin: auto;
 }
-/* line 430, ../sass/_pizzadom.scss */
+/* line 431, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 img {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
   border-radius: 200px;
   width: 95%;
 }
-/* line 437, ../sass/_pizzadom.scss */
+/* line 438, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid {
   padding-left: 10px;
   padding-right: 10px;
@@ -2687,122 +2688,122 @@ strong, em {
 #block-views-instagram-block-1 .views-responsive-grid:after {
   clear: both;
 }
-/* line 441, ../sass/_pizzadom.scss */
+/* line 442, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid .views-row {
   clear: left;
 }
-/* line 444, ../sass/_pizzadom.scss */
+/* line 445, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-2 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 447, ../sass/_pizzadom.scss */
+/* line 448, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-2 .views-column-1 {
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
 }
-/* line 450, ../sass/_pizzadom.scss */
+/* line 451, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-2 .views-column-2 {
   float: left;
   width: 50%;
   margin-left: 50%;
   margin-right: -100%;
 }
-/* line 454, ../sass/_pizzadom.scss */
+/* line 455, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-3 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 457, ../sass/_pizzadom.scss */
+/* line 458, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-3 .views-column-1 {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
   margin-right: -33.33333%;
 }
-/* line 460, ../sass/_pizzadom.scss */
+/* line 461, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-3 .views-column-2 {
   float: left;
   width: 33.33333%;
   margin-left: 33.33333%;
   margin-right: -66.66667%;
 }
-/* line 463, ../sass/_pizzadom.scss */
+/* line 464, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-3 .views-column-3 {
   float: left;
   width: 33.33333%;
   margin-left: 66.66667%;
   margin-right: -100%;
 }
-/* line 467, ../sass/_pizzadom.scss */
+/* line 468, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-4 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 471, ../sass/_pizzadom.scss */
+/* line 472, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-4 .views-column-1 {
   float: left;
   width: 25%;
   margin-left: 0%;
   margin-right: -25%;
 }
-/* line 474, ../sass/_pizzadom.scss */
+/* line 475, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-4 .views-column-2 {
   float: left;
   width: 25%;
   margin-left: 25%;
   margin-right: -50%;
 }
-/* line 477, ../sass/_pizzadom.scss */
+/* line 478, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-4 .views-column-3 {
   float: left;
   width: 25%;
   margin-left: 50%;
   margin-right: -75%;
 }
-/* line 480, ../sass/_pizzadom.scss */
+/* line 481, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-4 .views-column-4 {
   float: left;
   width: 25%;
   margin-left: 75%;
   margin-right: -100%;
 }
-/* line 484, ../sass/_pizzadom.scss */
+/* line 485, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 488, ../sass/_pizzadom.scss */
+/* line 489, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 .views-column-1 {
   float: left;
   width: 20%;
   margin-left: 0%;
   margin-right: -20%;
 }
-/* line 491, ../sass/_pizzadom.scss */
+/* line 492, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 .views-column-2 {
   float: left;
   width: 20%;
   margin-left: 20%;
   margin-right: -40%;
 }
-/* line 494, ../sass/_pizzadom.scss */
+/* line 495, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 .views-column-3 {
   float: left;
   width: 20%;
   margin-left: 40%;
   margin-right: -60%;
 }
-/* line 497, ../sass/_pizzadom.scss */
+/* line 498, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 .views-column-4 {
   float: left;
   width: 20%;
   margin-left: 60%;
   margin-right: -80%;
 }
-/* line 500, ../sass/_pizzadom.scss */
+/* line 501, ../sass/_pizzadom.scss */
 #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 .views-column-5 {
   float: left;
   width: 20%;
@@ -2810,12 +2811,12 @@ strong, em {
   margin-right: -100%;
 }
 
-/* line 507, ../sass/_pizzadom.scss */
+/* line 508, ../sass/_pizzadom.scss */
 .view-press-releases {
   margin: 6em auto;
   width: 80%;
 }
-/* line 510, ../sass/_pizzadom.scss */
+/* line 511, ../sass/_pizzadom.scss */
 .view-press-releases img {
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
@@ -2823,24 +2824,24 @@ strong, em {
   float: left;
   margin: 1em;
 }
-/* line 517, ../sass/_pizzadom.scss */
+/* line 518, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-title {
   color: #780016;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 2em;
 }
-/* line 523, ../sass/_pizzadom.scss */
+/* line 524, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-field-press-source {
   font-style: italic;
 }
-/* line 533, ../sass/_pizzadom.scss */
+/* line 534, ../sass/_pizzadom.scss */
 .view-press-releases .views-field-field-press-link a {
   color: #780016;
   text-decoration: none;
   font-style: italic;
 }
-/* line 539, ../sass/_pizzadom.scss */
+/* line 540, ../sass/_pizzadom.scss */
 .view-press-releases .press-line {
   background: #780016;
   clear: both;
@@ -2850,23 +2851,23 @@ strong, em {
   width: 90%;
 }
 
-/* line 554, ../sass/_pizzadom.scss */
+/* line 555, ../sass/_pizzadom.scss */
 .mean-container .mean-bar {
   background: none repeat scroll 0 0 transparent;
 }
-/* line 557, ../sass/_pizzadom.scss */
+/* line 558, ../sass/_pizzadom.scss */
 .mean-container a.meanmenu-reveal {
   background: none repeat scroll 0 0 #780016;
   padding: 13px 13px 17px;
 }
-/* line 560, ../sass/_pizzadom.scss */
+/* line 561, ../sass/_pizzadom.scss */
 .mean-container a.meanmenu-reveal span {
   background: none repeat scroll 0 0 #FFFFFF;
   display: block;
   height: 3px;
   margin-top: 3px;
 }
-/* line 566, ../sass/_pizzadom.scss */
+/* line 567, ../sass/_pizzadom.scss */
 .mean-container a.meanmenu-reveal span.mean-head {
   background: none repeat scroll 0 0 transparent;
   color: white;
@@ -2878,23 +2879,23 @@ strong, em {
   width: 400px;
   visibility: visible;
 }
-/* line 578, ../sass/_pizzadom.scss */
+/* line 579, ../sass/_pizzadom.scss */
 .mean-container .mean-nav {
   background: none repeat scroll 0 0 #780016;
 }
-/* line 580, ../sass/_pizzadom.scss */
+/* line 581, ../sass/_pizzadom.scss */
 .mean-container .mean-nav h2 {
   color: white;
 }
-/* line 583, ../sass/_pizzadom.scss */
+/* line 584, ../sass/_pizzadom.scss */
 .mean-container .mean-nav ul li a {
   background: none repeat scroll 0 0 #780016;
 }
-/* line 586, ../sass/_pizzadom.scss */
+/* line 587, ../sass/_pizzadom.scss */
 .mean-container .mean-nav ul li a:hover {
   background: none repeat scroll 0 0 #780016;
 }
-/* line 589, ../sass/_pizzadom.scss */
+/* line 590, ../sass/_pizzadom.scss */
 .mean-container .mean-nav ul li a.mean-expand:hover {
   background: none repeat scroll 0 0 #780016;
 }
