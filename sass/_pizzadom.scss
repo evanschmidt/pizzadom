@@ -317,9 +317,10 @@
     color: $white;
   }
   ul {
-    list-style: none;
+    list-style: outside none none;
+    padding: 0;
     li {
-      list-style: none;      
+      list-style: outside none none;
     }
   }
   .view-page-blocks {
