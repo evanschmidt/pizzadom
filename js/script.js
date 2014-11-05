@@ -126,8 +126,10 @@ Drupal.behaviors.my_custom_behavior = {
         colorboxResize(true);
       });
 */
-    $('.colorbox', context).colorbox.remove();
+//    $('.colorbox', context).colorbox.remove();
+
     $('.colorbox', context).colorbox();
+
       }
     };
 })(jQuery, Drupal, this, this.document);
