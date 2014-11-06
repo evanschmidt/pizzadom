@@ -701,9 +701,9 @@ table {
   /* line 109, ../sass/layouts/_responsive.scss */
   #header #block-block-1 {
     float: left;
-    width: 14.28571%;
+    width: 28.57143%;
     margin-left: 0%;
-    margin-right: -14.28571%;
+    margin-right: -28.57143%;
     text-align: left;
   }
   /* line 112, ../sass/layouts/_responsive.scss */
@@ -721,8 +721,8 @@ table {
   /* line 120, ../sass/layouts/_responsive.scss */
   #header #block-block-3 {
     float: left;
-    width: 14.28571%;
-    margin-left: 85.71429%;
+    width: 28.57143%;
+    margin-left: 71.42857%;
     margin-right: -100%;
     text-align: right;
   }
