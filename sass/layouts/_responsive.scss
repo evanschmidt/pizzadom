@@ -102,7 +102,7 @@ $zen-auto-include-item-base: false;
     display: block;
   }
   .header__region {
-    @include zen-grid-background();    
+    //@include zen-grid-background();    
   }
   #header {
   $zen-column-count: 7;
@@ -239,8 +239,6 @@ $zen-auto-include-item-base: false;
        @include zen-clear();   
   }
    .header__region {
-    $zen-column-count: 7;
-    @include zen-grid-background();    
   }
 
   #block-views-homepage-images-block {
@@ -276,7 +274,11 @@ $zen-auto-include-item-base: false;
     }
   }
 }
-
+#block-system-main-menu {
+  .menu {
+    font-size: 0.75em;
+  }
+}
   #block-block-4 {
     display: block;
   }
