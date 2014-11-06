@@ -53,7 +53,6 @@
     $zen-column-count: 7;
     @include zen-grid-item(7, 1);
     @include zen-nested-container();
-    position: fixed;
     top: 189px;
     z-index: 999;
   .menu {
@@ -61,7 +60,6 @@
     @include zen-nested-container();
     //@include zen-grid-background();
     //background: none repeat scroll 0 0 #FFFFFF;
-    position: fixed;
     z-index: 999;
     a {
       color: $red;

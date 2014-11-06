@@ -136,6 +136,7 @@ $zen-auto-include-item-base: false;
     position: relative;
     .menu {
       font-size: 0.75em;
+      position: relative;
     }
   }
 
@@ -293,6 +294,10 @@ $zen-auto-include-item-base: false;
   }
   #block-system-main-menu {
     position: fixed;
+    .menu {
+      position: fixed;
+    }
+
   }
   #block-block-4 {
     display: block;
