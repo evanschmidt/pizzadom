@@ -259,7 +259,7 @@ $zen-auto-include-item-base: false;
     }
   }
   #block-block-2 {
-    @include zen-grid-item(2, 3);
+    @include zen-grid-item(2, 4);
     text-align: center;
     z-index: 1;
   }
