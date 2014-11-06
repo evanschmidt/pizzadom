@@ -899,11 +899,6 @@ table {
     display: block;
   }
 
-  /* line 242, ../sass/layouts/_responsive.scss */
-  #block-block-2 img {
-    width: auto;
-  }
-
   /* line 246, ../sass/layouts/_responsive.scss */
   #block-block-1, #block-block-1--3 {
     float: left;
