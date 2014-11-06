@@ -102,6 +102,10 @@ $zen-auto-include-item-base: false;
     display: block;
   }
   .header__region {
+    height: 10em;
+    position: relative;
+  }
+  .region-navigation {
     position: relative;
   }
   #header {
@@ -245,8 +249,12 @@ $zen-auto-include-item-base: false;
        @include zen-clear();   
   }
    .header__region {
+    height: 16.8em;
     position: fixed;
 
+  }
+  .region-navigation {
+    position: fixed;
   }
 
   #block-views-homepage-images-block {
