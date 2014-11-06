@@ -701,9 +701,9 @@ table {
   /* line 109, ../sass/layouts/_responsive.scss */
   #header #block-block-1 {
     float: left;
-    width: 28.57143%;
+    width: 14.28571%;
     margin-left: 0%;
-    margin-right: -28.57143%;
+    margin-right: -14.28571%;
     text-align: left;
   }
   /* line 112, ../sass/layouts/_responsive.scss */
@@ -713,17 +713,17 @@ table {
   /* line 116, ../sass/layouts/_responsive.scss */
   #header #block-block-2 {
     float: left;
-    width: 14.28571%;
+    width: 42.85714%;
     margin-left: 28.57143%;
-    margin-right: -42.85714%;
+    margin-right: -71.42857%;
     text-align: center;
   }
   /* line 120, ../sass/layouts/_responsive.scss */
   #header #block-block-3 {
     float: left;
-    width: 28.57143%;
-    margin-left: 42.85714%;
-    margin-right: -71.42857%;
+    width: 14.28571%;
+    margin-left: 85.71429%;
+    margin-right: -100%;
     text-align: right;
   }
   /* line 123, ../sass/layouts/_responsive.scss */

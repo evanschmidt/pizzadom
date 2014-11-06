@@ -107,18 +107,18 @@ $zen-auto-include-item-base: false;
   #header {
   $zen-column-count: 7;
     #block-block-1 {
-      @include zen-grid-item(2, 1);
+      @include zen-grid-item(1, 1);
       text-align: left;
         p {
         padding: 2em;
       }
     }
     #block-block-2 {
-      @include zen-grid-item(1, 3);
+      @include zen-grid-item(3, 3);
       text-align: center;
     }
     #block-block-3 {
-    @include zen-grid-item(2, 4); 
+    @include zen-grid-item(1, 7); 
     text-align: right;   
       p {
         padding: 0.5em 2em 0 0;
