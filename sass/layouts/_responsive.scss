@@ -89,8 +89,8 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 480px) and (max-width: 959px) {
 
   $zen-column-count: 4;
-  #header {
-    @include zen-grid-background();
+  #page {
+    //@include zen-grid-background();
   }
   #main {
   //@include zen-grid-background();
@@ -103,7 +103,7 @@ $zen-auto-include-item-base: false;
   }
   #header {
   $zen-column-count: 5;
-  //@include zen-grid-background();
+  @include zen-grid-background();
     #block-block-1 {
       @include zen-grid-item(2, 1);
       text-align: left;
