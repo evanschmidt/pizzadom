@@ -89,7 +89,7 @@ $zen-auto-include-item-base: false;
 @media all and (min-width: 480px) and (max-width: 959px) {
 
   $zen-column-count: 4;
-  #page {
+  #header {
     @include zen-grid-background();
   }
   #main {
