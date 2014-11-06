@@ -239,6 +239,7 @@ $zen-auto-include-item-base: false;
        @include zen-clear();   
   }
    .header__region {
+    $zen-column-count: 7;
     @include zen-grid-background();    
   }
 
