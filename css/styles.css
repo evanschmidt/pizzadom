@@ -930,8 +930,8 @@ table {
   #header #block-block-2 {
     float: left;
     width: 28.57143%;
-    margin-left: 14.28571%;
-    margin-right: -42.85714%;
+    margin-left: 28.57143%;
+    margin-right: -57.14286%;
     text-align: center;
     z-index: 1;
   }
@@ -939,8 +939,8 @@ table {
   #header #block-block-3 {
     float: left;
     width: 14.28571%;
-    margin-left: 42.85714%;
-    margin-right: -57.14286%;
+    margin-left: 85.71429%;
+    margin-right: -100%;
     text-align: right;
     z-index: 1;
   }
