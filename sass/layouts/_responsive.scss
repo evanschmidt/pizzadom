@@ -103,6 +103,7 @@ $zen-auto-include-item-base: false;
   }
   .header__region {
     //@include zen-grid-background();    
+    height: 10em;
   }
   #header {
   $zen-column-count: 7;
@@ -245,6 +246,7 @@ $zen-auto-include-item-base: false;
        @include zen-clear();   
   }
    .header__region {
+    height: 16.8em;
   }
 
   #block-views-homepage-images-block {
