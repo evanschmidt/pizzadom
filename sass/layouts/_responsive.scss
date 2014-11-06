@@ -101,9 +101,11 @@ $zen-auto-include-item-base: false;
   #block-views-homepage-images-block {
     display: block;
   }
+  .header__region {
+  @include zen-grid-background();    
+  }
   #header {
   $zen-column-count: 5;
-  @include zen-grid-background();
     #block-block-1 {
       @include zen-grid-item(2, 1);
       text-align: left;
