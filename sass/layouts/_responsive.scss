@@ -260,7 +260,7 @@ $zen-auto-include-item-base: false;
     }
   }
   #block-block-2 {
-    @include zen-grid-item(1, 4);
+    @include zen-grid-item(3, 3);
     text-align: center;
     z-index: 1;
   }
