@@ -90,7 +90,7 @@ $zen-auto-include-item-base: false;
 
   $zen-column-count: 4;
   #page {
-    //@include zen-grid-background();
+    @include zen-grid-background();
   }
   #main {
   //@include zen-grid-background();
@@ -229,7 +229,7 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 4;
 
   #page {
-    //@include zen-grid-background();
+    @include zen-grid-background();
   }
   #main {
   }
