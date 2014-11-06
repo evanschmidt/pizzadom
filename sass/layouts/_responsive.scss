@@ -102,7 +102,7 @@ $zen-auto-include-item-base: false;
     display: block;
   }
   .header__region {
-  @include zen-grid-background();    
+    @include zen-grid-background();    
   }
   #header {
   $zen-column-count: 5;
@@ -231,13 +231,17 @@ $zen-auto-include-item-base: false;
   $zen-column-count: 4;
 
   #page {
-    @include zen-grid-background();
+    //@include zen-grid-background();
   }
   #main {
   }
   #navigation {
        @include zen-clear();   
   }
+   .header__region {
+    @include zen-grid-background();    
+  }
+
   #block-views-homepage-images-block {
     display: block;
   }
