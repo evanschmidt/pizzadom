@@ -101,6 +101,9 @@ $zen-auto-include-item-base: false;
   #block-views-homepage-images-block {
     display: block;
   }
+  #homepage-image-background, #block-block-11 {
+  margin-top: auto;
+  }  
   .header__region {
     height: auto;
     position: relative;
@@ -262,6 +265,9 @@ $zen-auto-include-item-base: false;
 
   #block-views-homepage-images-block {
     display: block;
+  }
+  #homepage-image-background, #block-block-11 {
+  margin-top: 16em;
   }
   #block-block-2 img {
     //width: auto;
