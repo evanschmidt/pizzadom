@@ -102,7 +102,7 @@ $zen-auto-include-item-base: false;
     display: block;
   }
   .header__region {
-    height: 10em;
+    height: auto;
     position: relative;
   }
   .region-navigation {
@@ -134,6 +134,7 @@ $zen-auto-include-item-base: false;
   } 
   #block-system-main-menu {
     position: relative;
+    top: auto;
     .menu {
       font-size: 0.75em;
       position: relative;
@@ -294,6 +295,7 @@ $zen-auto-include-item-base: false;
   }
   #block-system-main-menu {
     position: fixed;
+    top: 189px;
     .menu {
       position: fixed;
     }
