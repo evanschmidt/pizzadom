@@ -94,6 +94,12 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
+    //After colorbox closes
+    $(document).bind('cbox_closed', function(){
+        alert("colorbox closed");
+    });
+
+
 /*
     //reload page after colorbox closes
     $(document).bind('cbox_closed', function(){
