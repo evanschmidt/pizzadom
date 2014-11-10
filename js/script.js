@@ -96,7 +96,7 @@ Drupal.behaviors.my_custom_behavior = {
 
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
-        $('.our-story p').css('width','100%');
+        $('.our-story p').css('width','1200px');
         alert("colorbox closed");
     });
 
