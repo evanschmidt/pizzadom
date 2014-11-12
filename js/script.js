@@ -97,8 +97,8 @@ Drupal.behaviors.my_custom_behavior = {
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
-        $('#sp_iframe').contentWindow.location.reload(true);
-        new BusinessView("pizza-domenica", "menusContainer", options);
+        //$('#sp_iframe').contentWindow.location.reload(true);
+        $('iframe').attr('src', $('iframe').attr('src'));
         alert($(window).width());
     });
 
