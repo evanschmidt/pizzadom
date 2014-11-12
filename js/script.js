@@ -96,7 +96,7 @@ Drupal.behaviors.my_custom_behavior = {
 
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
-        $('.our-story p').css('max-width','90%');
+        $('.fp-tableCell').css('max-width',$(window).width());
         alert("colorbox closed");
     });
 
@@ -106,7 +106,6 @@ Drupal.behaviors.my_custom_behavior = {
     $(document).bind('cbox_closed', function(){
       location.reload(true);
     });
-*/
 
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
@@ -134,6 +133,7 @@ Drupal.behaviors.my_custom_behavior = {
       $(window).resize(function() {
         colorboxResize(true);
       });
+*/
     
 //    var $element = $.colorbox.element();
 //    console.log($element);
