@@ -114,9 +114,9 @@ Drupal.behaviors.my_custom_behavior = {
       }
       //Customize colorbox dimensions
       var colorboxResize = function(resize) {
-        var width = "90%";
-        var height = "90%";
-        var top = "20";
+        var width = "640";
+        var height = "640";
+        var top = "10";
         if($(window).width() > 960) { width = "860" }
         if($(window).height() > 700) { height = "630" }
         $.colorbox.settings.height = height;
