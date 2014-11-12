@@ -143,6 +143,14 @@ $zen-auto-include-item-base: false;
       position: relative;
     }
   }
+  .our-team {
+    .views-field-title {
+      border-right: none;
+    }
+    .views-field-field-team-bio {
+      border-right: none;
+    }
+  }  
   .our-videos {
     img {
       width: auto;
@@ -163,7 +171,6 @@ $zen-auto-include-item-base: false;
         @include zen-nested-container();
         @include zen-grid-item(2, 1);
         @include zen-clear();
-        @include zen-grid-background();  
       }
       .views-row-1 {
         @include zen-grid-item(1, 1);
@@ -341,7 +348,14 @@ $zen-auto-include-item-base: false;
       width: 90%;
     }
   }
-
+  .our-team {
+    .views-field-title {
+      border-right: 1px solid $red;
+    }
+    .views-field-field-team-bio {
+      border-right: 1px solid $red;
+    }
+  }
   #block-block-4 {
     display: block;
   }
