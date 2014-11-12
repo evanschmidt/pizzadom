@@ -217,14 +217,12 @@ $zen-auto-include-item-base: false;
     }
     .views-column-2 {
       @include zen-grid-item(1, 2);
-      @include zen-clear();
     }
     .views-column-3 {
       @include zen-grid-item(1, 3);
     }
     .views-column-4 {
       @include zen-grid-item(1, 4);
-      @include zen-clear();
     }
     .views-column-5 {
       @include zen-grid-item(1, 5);
