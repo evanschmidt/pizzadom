@@ -76,6 +76,31 @@ $zen-auto-include-item-base: false;
     //height: $nav-height;
     width: $zen-grid-width;
   }
+  //instagram block layout
+  #block-views-instagram-block-1 {
+    text-align: center;
+    // responsive grid layout
+    .views-responsive-grid {
+      @include zen-grid-item-base();
+      @include zen-grid-container();
+    }
+    .views-responsive-grid.views-columns-5 {
+      $zen-column-count:  2;
+      @include zen-nested-container();
+      .views-column {
+        @include zen-nested-container();
+        @include zen-grid-item(2, 1);
+        @include zen-clear();
+        @include zen-grid-background();  
+      }
+      .views-row-1 {
+        @include zen-grid-item(1, 1);
+      }
+      .views-row-2 {
+        @include zen-grid-item(1, 2);
+      }    
+    }
+  }
 }
  #block-block-2 img {
 //    width: 131.5px;
