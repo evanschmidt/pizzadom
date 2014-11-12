@@ -98,6 +98,7 @@ Drupal.behaviors.my_custom_behavior = {
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
         $('#sp_iframe').contentWindow.location.reload(true);
+        new BusinessView("pizza-domenica", "menusContainer", options);
         alert($(window).width());
     });
 
