@@ -160,6 +160,9 @@ $zen-auto-include-item-base: false;
   #block-views-instagram-block-1 {
       text-align: center;
     // responsive grid layout
+    img {
+      width: auto;
+    }
     .views-responsive-grid {
       @include zen-grid-item-base();
       @include zen-grid-container();
@@ -343,6 +346,12 @@ $zen-auto-include-item-base: false;
       position: fixed;
     }
   }
+  //instagram block layout
+  #block-views-instagram-block-1 {
+    img {
+      width: 95%;
+    }
+  }  
   .our-videos {
     img {
       width: 90%;
