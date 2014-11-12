@@ -97,7 +97,7 @@ Drupal.behaviors.my_custom_behavior = {
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
-        $('#iframe')[0].contentWindow.location.reload(true);
+        $('#sp_iframe').contentWindow.location.reload(true);
         alert($(window).width());
     });
 
