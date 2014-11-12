@@ -118,7 +118,7 @@ Drupal.behaviors.my_custom_behavior = {
         options['HideDisplayOptionPhotos'] = 'true';
         options['HideDisplayOptionDisclaimer'] = 'true';
         options['MenuTemplate'] = '2';
-        new BusinessView("pizza-domenica", "menusContainer", options); 
+        BusinessView("pizza-domenica", "menusContainer", options); 
 
     });
 
