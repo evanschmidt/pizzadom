@@ -212,6 +212,9 @@ $zen-auto-include-item-base: false;
     $zen-column-count:  5;
     @include zen-nested-container();
     //@include zen-grid-background();  
+    .views-column {
+      @include zen-clear();
+    }
     .views-column-1 {
       @include zen-grid-item(1, 1);
     }
