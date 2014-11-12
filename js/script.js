@@ -100,6 +100,7 @@ Drupal.behaviors.my_custom_behavior = {
         //$('#sp_iframe').contentWindow.location.reload(true);
         $('iframe').attr('src', $('iframe').attr('src'));
         alert($(window).width());
+        console.log($options);
     });
 
 
