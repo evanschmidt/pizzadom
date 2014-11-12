@@ -217,10 +217,10 @@ $zen-auto-include-item-base: false;
       @include zen-clear();
     }
     .views-row-1 {
-      @include zen-grid-item(1, 1, left);
+      @include zen-grid-item(1, 1);
     }
     .views-row-2 {
-      @include zen-grid-item(1, 2, right);
+      @include zen-grid-item(1, 2);
     }    
   }
 }
