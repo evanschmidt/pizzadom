@@ -150,6 +150,7 @@ $zen-auto-include-item-base: false;
   }
   //instagram block layout
   #block-views-instagram-block-1 {
+    text-align: center;
     // responsive grid layout
     .views-responsive-grid {
       @include zen-grid-item-base();
