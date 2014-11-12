@@ -898,10 +898,10 @@ table {
   }
   /* line 222, ../sass/layouts/_responsive.scss */
   #block-views-instagram-block-1 .views-responsive-grid.views-columns-5 .views-row-2 {
-    float: left;
+    float: right;
     width: 50%;
-    margin-left: 50%;
-    margin-right: -100%;
+    margin-right: 50%;
+    margin-left: -100%;
   }
 
   /* line 231, ../sass/layouts/_responsive.scss */
