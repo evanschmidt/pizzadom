@@ -96,8 +96,8 @@ Drupal.behaviors.my_custom_behavior = {
 
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
-        $('.fp-tableCell').css('max-width',$(window).width());
-        alert("colorbox closed");
+        $('.fp-tableCell').css('width',$(window).width());
+        alert($(window).width());
     });
 
 
