@@ -474,6 +474,9 @@ strong, em {
   //background: none no-repeat scroll 0 0 $yellow;
   #menusContainer {
     margin: auto;
+    .sp_price {
+      z-index: 1;
+    }
   }
 }
 
