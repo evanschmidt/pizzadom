@@ -30,7 +30,7 @@ Drupal.behaviors.my_custom_behavior = {
 
         //fullPage.js
         $('#fullpage').fullpage({
-            scrollingSpeed: 400,
+            scrollingSpeed: 700,
             autoScrolling: false,
             anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
             navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
@@ -38,7 +38,9 @@ Drupal.behaviors.my_custom_behavior = {
             paddingTop: '4em',
             paddingBottom: '1em',
             fixedElements: '#header',
-            resize : false
+            resize : false,
+            css3: false,
+            responsize: 1
         });
     }
     //After colorbox closes
