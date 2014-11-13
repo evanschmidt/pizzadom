@@ -126,10 +126,6 @@ Drupal.behaviors.my_custom_behavior = {
         colorboxResize(true);
     });
 */
-    //Configure colorbox call back to resize with custom dimensions
-      $.colorbox.settings.onLoad = function() {
-        $.colorbox.settings.fixed = true;
-      }
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
