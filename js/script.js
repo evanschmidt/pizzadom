@@ -96,16 +96,20 @@ Drupal.behaviors.my_custom_behavior = {
 
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
-        $('.fp-tableCell').css('width',$(window).width());
+        //$('.fp-tableCell').css('width',$(window).width());
         //$('#sp_iframe').contentWindow.location.reload(true);
+        //$('#colorbox').css('width',$(window).width());
     });
-
+    $(window).resize(function() {
+        //$('.fp-tableCell').css('width',$(window).width());
+    });
 
 /*
     //reload page after colorbox closes
     $(document).bind('cbox_closed', function(){
       location.reload(true);
     });
+*/
 
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
@@ -113,8 +117,8 @@ Drupal.behaviors.my_custom_behavior = {
       }
       //Customize colorbox dimensions
       var colorboxResize = function(resize) {
-        var width = "640";
-        var height = "640";
+        var width = "100%";
+        var height = "100%";
         var top = "10";
         if($(window).width() > 960) { width = "860" }
         if($(window).height() > 700) { height = "630" }
@@ -133,7 +137,6 @@ Drupal.behaviors.my_custom_behavior = {
       $(window).resize(function() {
         colorboxResize(true);
       });
-*/
     
 //    var $element = $.colorbox.element();
 //    console.log($element);
