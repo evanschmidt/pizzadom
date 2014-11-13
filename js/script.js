@@ -129,13 +129,12 @@ Drupal.behaviors.my_custom_behavior = {
 
       //regenerate Single Platform
      var singlePlatGen = function() {
-        BusinessView.reload(); 
      }
 
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
-        singlePlatGen();
+       // singlePlatGen();
         //$('#sp_iframe').contentWindow.location.reload(true);
         //$('#colorbox').css('width',$(window).width());
     });
