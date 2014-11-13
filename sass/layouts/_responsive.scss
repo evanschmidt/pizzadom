@@ -81,6 +81,12 @@ $zen-auto-include-item-base: false;
 //    width: 131.5px;
   }
 
+.our-contact {
+  img {
+    float: none;
+  }
+}  
+
 } // End of @if $zen-reverse-all-floats == true
 
 /**
@@ -156,6 +162,11 @@ $zen-auto-include-item-base: false;
       width: auto;
     }
   }
+  .our-contact {
+    img {
+      float: none;
+    }
+  }  
   //instagram block layout
   #block-views-instagram-block-1 {
     img {
@@ -364,6 +375,13 @@ $zen-auto-include-item-base: false;
       border-right: 1px solid $red;
     }
   }
+
+  .our-contact {
+    img {
+      float: right;
+    }
+  }
+
   #block-block-4 {
     display: block;
   }
