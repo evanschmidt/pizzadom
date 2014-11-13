@@ -85,6 +85,9 @@ $zen-auto-include-item-base: false;
   img {
     float: none;
   }
+  p.contact-img {
+    text-align: center;
+  }
 }  
 
 } // End of @if $zen-reverse-all-floats == true
@@ -379,6 +382,9 @@ $zen-auto-include-item-base: false;
   .our-contact {
     img {
       float: right;
+    }
+    p.contact-img {
+      text-align: right;
     }
   }
 
