@@ -50,7 +50,7 @@ Drupal.behaviors.my_custom_behavior = {
     //In case of window being resized
     $(window).resize(function() {
         //make the fullpage js table the width of the screen
-        //$('.fp-tableCell').css('width',$(window).width());
+        $('.fp-tableCell').css('width',$(window).width());
     });
 
 
