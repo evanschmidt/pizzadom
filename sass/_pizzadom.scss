@@ -477,6 +477,9 @@ strong, em {
     .sp_price {
       z-index: 1;
     }
+    #sp_main .sp_tabs {
+      display: none;
+    }
   }
 }
 
