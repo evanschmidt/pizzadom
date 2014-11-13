@@ -94,6 +94,11 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
+/*
+    //Configure colorbox call back to resize with custom dimensions
+      $.colorbox.settings.onLoad = function() {
+        colorboxResize();
+      }
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
         colorboxResize();
@@ -116,7 +121,15 @@ Drupal.behaviors.my_custom_behavior = {
           });
         }
       }
-
+    //In case of window being resized
+    $(window).resize(function() {
+        colorboxResize(true);
+    });
+*/
+    //Configure colorbox call back to resize with custom dimensions
+      $.colorbox.settings.onLoad = function() {
+        $.colorbox.settings.fixed = true;
+      }
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
@@ -126,7 +139,6 @@ Drupal.behaviors.my_custom_behavior = {
 
     //In case of window being resized
     $(window).resize(function() {
-        colorboxResize(true);
         $('.fp-tableCell').css('width',$(window).width());
     });
 
