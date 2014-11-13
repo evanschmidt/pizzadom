@@ -127,6 +127,7 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
+/*
       //regenerate Single Platform
      var singlePlatGen = function() {
      }
@@ -144,7 +145,6 @@ Drupal.behaviors.my_custom_behavior = {
         $('.fp-tableCell').css('width',$(window).width());
     });
 
-/*
     //reload page after colorbox closes
     $(document).bind('cbox_closed', function(){
       location.reload(true);
