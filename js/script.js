@@ -55,6 +55,9 @@ Drupal.behaviors.my_custom_behavior = {
         $('.fp-tableCell').css('width',$(window).width());
     });
 
+    $(window).on("orientationchange",function(){
+      alert("The orientation has changed!");
+    });
 
       }
     };
