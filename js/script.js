@@ -126,9 +126,16 @@ Drupal.behaviors.my_custom_behavior = {
         colorboxResize(true);
     });
 */
+
+      //Customize colorbox dimensions
+     var singlePlatGen = function() {
+        alert("singlePlatGen");
+     }
+
     //After colorbox closes
     $(document).bind('cbox_closed', function(){
         $('.fp-tableCell').css('width',$(window).width());
+        singlePlatGen();
         //$('#sp_iframe').contentWindow.location.reload(true);
         //$('#colorbox').css('width',$(window).width());
     });
