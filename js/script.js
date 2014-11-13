@@ -94,23 +94,6 @@ Drupal.behaviors.my_custom_behavior = {
     });
 */
 
-    //After colorbox closes
-    $(document).bind('cbox_closed', function(){
-        //$('.fp-tableCell').css('width',$(window).width());
-        //$('#sp_iframe').contentWindow.location.reload(true);
-        //$('#colorbox').css('width',$(window).width());
-    });
-    $(window).resize(function() {
-        //$('.fp-tableCell').css('width',$(window).width());
-    });
-
-/*
-    //reload page after colorbox closes
-    $(document).bind('cbox_closed', function(){
-      location.reload(true);
-    });
-*/
-
     //Configure colorbox call back to resize with custom dimensions
       $.colorbox.settings.onLoad = function() {
         colorboxResize();
@@ -119,7 +102,7 @@ Drupal.behaviors.my_custom_behavior = {
       var colorboxResize = function(resize) {
         var width = "100%";
         var height = "100%";
-        var top = "10";
+        var top = "0";
         if($(window).width() > 960) { width = "860" }
         if($(window).height() > 700) { height = "630" }
         $.colorbox.settings.height = height;
@@ -133,11 +116,28 @@ Drupal.behaviors.my_custom_behavior = {
           });
         }
       }
-      //In case of window being resized
-      $(window).resize(function() {
+
+    //After colorbox closes
+    $(document).bind('cbox_closed', function(){
+        $('.fp-tableCell').css('width',$(window).width());
+        //$('#sp_iframe').contentWindow.location.reload(true);
+        //$('#colorbox').css('width',$(window).width());
+    });
+
+    //In case of window being resized
+    $(window).resize(function() {
         colorboxResize(true);
-      });
+        $('.fp-tableCell').css('width',$(window).width());
+    });
+
+/*
+    //reload page after colorbox closes
+    $(document).bind('cbox_closed', function(){
+      location.reload(true);
+    });
+*/
     
+
 //    var $element = $.colorbox.element();
 //    console.log($element);
 
