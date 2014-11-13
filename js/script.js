@@ -131,6 +131,30 @@ Drupal.behaviors.my_custom_behavior = {
         $('.fp-tableCell').css('width',$(window).width());
         //$('#sp_iframe').contentWindow.location.reload(true);
         //$('#colorbox').css('width',$(window).width());
+
+        var options = {};
+        options['PrimaryBackgroundColor'] = '#F1BF57';
+        options['MenuDescBackgroundColor'] = '#F1BF57';
+        options['SectionTitleBackgroundColor'] = '#F1BF57';
+        options['SectionDescBackgroundColor'] = '#F1BF57';
+        options['ItemBackgroundColor'] = '#F1BF57';
+        options['PrimaryFontFamily'] = 'Roboto';
+        options['BaseFontSize'] = '18px';
+        options['FontCasing'] = 'Default';
+        options['PrimaryFontColor'] = '#780016';
+        options['MenuDescFontColor'] = '#780016';
+        options['SectionTitleFontColor'] = '#780016';
+        options['SectionDescFontColor'] = '#780016';
+        options['ItemTitleFontColor'] = '#780016';
+        options['FeedbackFontColor'] = '#780016';
+        options['ItemDescFontColor'] = '#780016';
+        options['ItemPriceFontColor'] = '#780016';
+        options['HideDisplayOptionPhotos'] = 'true';
+        options['HideDisplayOptionDisclaimer'] = 'true';
+        options['MenuTemplate'] = '2';
+        //options['MenuDropDownBackgroundColor'] = '#f1f1f1';
+        new BusinessView("pizza-domenica", "menusContainer", options); 
+
     });
 
     //In case of window being resized
