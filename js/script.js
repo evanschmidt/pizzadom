@@ -40,7 +40,18 @@ Drupal.behaviors.my_custom_behavior = {
         fixedElements: '#header',
         resize : false
     });
- }
+  }
+    //After colorbox closes
+    $(document).bind('cbox_closed', function(){
+        //make the fullpage js table the width of the screen
+        $('.fp-tableCell').css('width',$(window).width());
+    });
+
+    //In case of window being resized
+    $(window).resize(function() {
+        //make the fullpage js table the width of the screen
+        $('.fp-tableCell').css('width',$(window).width());
+    });
 
  /*
     $('#fullpage').fullpage({
@@ -125,40 +136,12 @@ Drupal.behaviors.my_custom_behavior = {
     $(window).resize(function() {
         colorboxResize(true);
     });
-*/
 
-      //regenerate Single Platform
-     var singlePlatGen = function() {
-     }
-
-    //After colorbox closes
-    $(document).bind('cbox_closed', function(){
-        $('.fp-tableCell').css('width',$(window).width());
-       // singlePlatGen();
-        //$('#sp_iframe').contentWindow.location.reload(true);
-        //$('#colorbox').css('width',$(window).width());
-    });
-
-    //In case of window being resized
-    $(window).resize(function() {
-        $('.fp-tableCell').css('width',$(window).width());
-    });
-
-/*
     //reload page after colorbox closes
     $(document).bind('cbox_closed', function(){
       location.reload(true);
     });
 */
-    
-
-//    var $element = $.colorbox.element();
-//    console.log($element);
-
-//    $('a.colorbox-inline', context).colorbox.remove();
-
-//    $('a.colorbox-inline', context).colorbox();
-
       }
     };
 })(jQuery, Drupal, this, this.document);

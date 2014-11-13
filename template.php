@@ -6,9 +6,6 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728096
  */
-//drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.easings.min.js');
-//drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/vendors/jquery.slimscroll.min.js');
-//drupal_add_js(drupal_get_path('theme', 'pizzadom') .'/js/fullpage/jquery.fullPage.js');
 
 /**
  * Override or insert variables into the maintenance page template.
@@ -62,9 +59,8 @@ function pizzadom_preprocess_page(&$variables, $hook) {
     drupal_add_js(libraries_get_path('jquery.fullpage') . '/vendors/jquery.easings.min.js');
     drupal_add_js(libraries_get_path('jquery.fullpage') . '/jquery.fullPage.js');
     drupal_add_js(libraries_get_path('jquery.backstretch') . '/jquery.backstretch.min.js');
-    drupal_add_js('http://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw', 'external');
+    drupal_add_js('http://menus.singleplatform.co/jsload?load=menus.2&apiKey=ke09z8icq4xu8uiiccighy1bw', 'external');
   }
-
 }
 // */
 
