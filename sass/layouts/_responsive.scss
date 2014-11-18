@@ -378,7 +378,13 @@ $zen-auto-include-item-base: false;
       border-right: 1px solid $red;
     }
   }
-
+  .our-farmers {
+    .views-row-2 {
+      .views-column {
+        width: 50%!important;
+      }
+    }
+  }
   .our-contact {
     img {
       float: right;
