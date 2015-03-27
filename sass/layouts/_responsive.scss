@@ -63,6 +63,11 @@ $zen-auto-include-item-base: false;
   #block-block-3 strong {
     font-size: 2em;
   }
+  .header-social {
+    position: absolute;
+    right:1em; 
+    top: 2em;
+  }
 
 /* Navigation bar */
 @media all and (min-width: 480px) {  
@@ -142,6 +147,11 @@ $zen-auto-include-item-base: false;
       strong {
         font-size: 1em;
       }
+    }
+    .header-social {
+      position: absolute;
+      right:1em; 
+      top: 2em;
     }
   } 
   #block-system-main-menu {
@@ -350,6 +360,11 @@ $zen-auto-include-item-base: false;
       strong {
         font-size: 1em;
       }
+    }
+    .header-social {
+      position: absolute;
+      right:1em; 
+      top: 2em;
     }
   }
   #block-system-main-menu {
