@@ -83,7 +83,6 @@ $zen-auto-include-item-base: false;
   #block-block-3 h2 {
     float: right;
   }
-
 /* Navigation bar */
 @media all and (min-width: 480px) {  
   #main {
@@ -166,7 +165,7 @@ $zen-auto-include-item-base: false;
     .header-social {
       position: absolute;
       right:1em; 
-      top: 2em;
+      top: 1em;
     }
   }
   #block-block-1, #block-block-3 {
@@ -184,7 +183,9 @@ $zen-auto-include-item-base: false;
   #block-block-3 h2 {
     float: left;
   }
-
+#block-block-9 p {
+  padding-top: 2em;
+}
   #block-system-main-menu {
     position: relative;
     top: auto;
