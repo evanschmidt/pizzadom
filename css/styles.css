@@ -671,8 +671,8 @@ table {
 /* line 66, ../sass/layouts/_responsive.scss */
 .header-social {
   position: absolute;
-  right: 1em;
-  top: 2em;
+  right: 4em;
+  top: 0.5em;
 }
 
 /* Navigation bar */
