@@ -677,12 +677,12 @@ table {
 
 /* line 72, ../sass/layouts/_responsive.scss */
 #block-block-1 h2, #block-block-3 h2 {
-  width: 150px;
+  width: 100%;
 }
 /* line 74, ../sass/layouts/_responsive.scss */
 #block-block-1 h2 a, #block-block-3 h2 a {
-  height: 73px;
-  width: 150px;
+  height: 100%;
+  width: 100%;
 }
 
 /* line 80, ../sass/layouts/_responsive.scss */
@@ -2785,7 +2785,7 @@ strong, em {
 }
 /* line 338, ../sass/_pizzadom.scss */
 #block-block-1 h2 a, #block-block-3 h2 a {
-  background: url("/sites/default/files/images/button.png") no-repeat scroll 0 0 transparent;
+  background: url("/sites/default/files/images/button.png") no-repeat scroll top center transparent;
   color: #780016;
   display: block;
   margin: auto;
