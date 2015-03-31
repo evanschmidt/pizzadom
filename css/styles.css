@@ -677,12 +677,12 @@ table {
 
 /* line 72, ../sass/layouts/_responsive.scss */
 #block-block-1 h2, #block-block-3 h2 {
-  width: 170px;
+  width: 150px;
 }
 /* line 74, ../sass/layouts/_responsive.scss */
 #block-block-1 h2 a, #block-block-3 h2 a {
   height: 73px;
-  width: 170px;
+  width: 150px;
 }
 
 /* Navigation bar */
@@ -778,12 +778,12 @@ table {
 
   /* line 167, ../sass/layouts/_responsive.scss */
   #block-block-1 h2, #block-block-3 h2 {
-    width: 170px;
+    width: 150px;
   }
   /* line 169, ../sass/layouts/_responsive.scss */
   #block-block-1 h2 a, #block-block-3 h2 a {
     height: 73px;
-    width: 170px;
+    width: 150px;
   }
 
   /* line 175, ../sass/layouts/_responsive.scss */
