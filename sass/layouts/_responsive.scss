@@ -70,20 +70,18 @@ $zen-auto-include-item-base: false;
   }
   #block-block-1, #block-block-3 {
     h2 {
-      width: 100%;
+      width: 48%;
       a {
       height: 73px;
-      width: 100%;
+      width: 48%;
       }  
     }
   }
   #block-block-1 h2 {
-    clear: both;
     float: left;
   }
   #block-block-3 h2 {
-    clear: both;
-    float: left;
+    float: right;
   }
 
 /* Navigation bar */
