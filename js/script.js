@@ -32,8 +32,8 @@ Drupal.behaviors.my_custom_behavior = {
         $('#fullpage').fullpage({
             scrollingSpeed: 700,
             autoScrolling: false,
-            anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
-            navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-farmers', 'our-contact', 'our-menu'],
+            anchors:['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-contact', 'our-menu'],
+            navigationTooltips: ['welcome', 'hi-neighbor', 'instagram', 'our-story', 'our-team', 'how-we-roll', 'our-videos', 'our-contact', 'our-menu'],
             verticalCentered: true,
             paddingTop: '4em',
             paddingBottom: '1em',
