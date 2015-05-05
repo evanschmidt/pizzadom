@@ -136,6 +136,8 @@ function pizzadom_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+// make the menu items with a # to be links see: https://www.drupal.org/node/143322
 function pizzadom_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
