@@ -454,11 +454,14 @@ $zen-auto-include-item-base: false;
     }
   }
   .our-contact {
-    img {
+    .contact-img img {
       float: right;
     }
     p.contact-img {
       text-align: right;
+    }
+    .james-img {
+
     }
   }
 
