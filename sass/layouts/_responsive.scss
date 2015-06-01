@@ -144,7 +144,7 @@ $zen-auto-include-item-base: false;
   }
   #header {
   $zen-column-count: 7;
-  @include zen-grid-background();
+  //@include zen-grid-background();
     #block-block-1 {
       @include zen-grid-item(2, 1);
       text-align: left;
@@ -172,7 +172,7 @@ $zen-auto-include-item-base: false;
       top: 0.5em;
     }
     #block-block-9  {
-      margin: 0px 7em;
+      margin: 0 7em 1em;
     }
     #block-block-13 {
       @include zen-grid-item(1, 1);      
