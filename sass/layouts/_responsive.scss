@@ -398,6 +398,9 @@ $zen-auto-include-item-base: false;
       right:1em; 
       top: 2em;
     }
+    #block-block-13 {
+      @include zen-grid-item(2, 1);      
+    }
   }
   #block-block-1, #block-block-3 {
     h2 {
