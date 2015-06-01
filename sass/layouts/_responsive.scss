@@ -104,8 +104,11 @@ $zen-auto-include-item-base: false;
   img {
     float: none;
   }
-  p.contact-img {
+  p.contact-img, p.james-img {
     text-align: center;
+  }
+  .james-img img {
+    border-radius: 0;
   }
 }  
 
