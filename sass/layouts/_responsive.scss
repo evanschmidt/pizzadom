@@ -461,10 +461,12 @@ $zen-auto-include-item-base: false;
       text-align: right;
     }
     .james-img img {
+      border-radius: 0;
       clear: right;
       float: right;
       padding-right: 4em;
-      padding-top: 1em;    }
+      padding-top: 3em;
+    }
   }
 
   #block-block-4 {
