@@ -144,6 +144,7 @@ $zen-auto-include-item-base: false;
   }
   #header {
   $zen-column-count: 7;
+  @include zen-grid-background();
     #block-block-1 {
       @include zen-grid-item(2, 1);
       text-align: left;
@@ -170,6 +171,9 @@ $zen-auto-include-item-base: false;
       right:1em; 
       top: 0.5em;
     }
+    #block-block-9  {
+      @include zen-grid-item(2, 2);      
+    }
     #block-block-13 {
       @include zen-grid-item(1, 1);      
     }
@@ -189,9 +193,6 @@ $zen-auto-include-item-base: false;
   #block-block-3 h2 {
     float: left;
   }
-#block-block-9  {
-  @include zen-grid-item(2, 2);      
-}
 #block-block-9 p {
   padding-top: 3em;
 }
