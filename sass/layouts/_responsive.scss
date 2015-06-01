@@ -460,8 +460,9 @@ $zen-auto-include-item-base: false;
     p.contact-img {
       text-align: right;
     }
-    .james-img {
-
+    .james-img img {
+      clear: right;
+      float: right;
     }
   }
 
