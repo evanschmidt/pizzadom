@@ -169,6 +169,7 @@ $zen-auto-include-item-base: false;
     }
     #block-block-13 {
       @include zen-grid-item(7, 1);      
+      @include zen-clear();
     }
   }
   #block-block-1, #block-block-3 {
