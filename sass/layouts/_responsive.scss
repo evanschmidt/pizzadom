@@ -189,6 +189,9 @@ $zen-auto-include-item-base: false;
   #block-block-3 h2 {
     float: left;
   }
+#block-block-9  {
+  @include zen-grid-item(2, 2);      
+}
 #block-block-9 p {
   padding-top: 3em;
 }
